@@ -1,10 +1,10 @@
 'use client'
 
 import { Field, FieldDescription, FieldGroup, FieldLabel, FieldSet } from '@/components/ui/field'
-import { Input } from '@/components/ui/input'
+import { Input } from '../../../components/ui/input'
 import React, { useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../components/ui/button"
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as z from 'zod'
 import { useRouter } from 'next/navigation'
