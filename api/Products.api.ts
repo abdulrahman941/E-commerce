@@ -1,5 +1,5 @@
 
-import  product  from '../types/product';
+import type product from '../types/product';
 
 
 

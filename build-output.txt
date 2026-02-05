@@ -1,0 +1,2144 @@
+
+> e-commerce@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local, .env
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.5s
+  Running TypeScript ...
+  Collecting page data using 23 workers ...
+  Generating static pages using 23 workers (0/19) ...
+loading
+loading
+loading
+loading
+loading
+  Generating static pages using 23 workers (4/19) 
+loading
+cart data [90mundefined[39m
+loading
+loading
+[
+  {
+    _id: [32m'64089fe824b25627a25315d1'[39m,
+    name: [32m'Canon'[39m,
+    slug: [32m'canon'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286824747.png'[39m,
+    createdAt: [32m'2023-03-08T14:47:04.912Z'[39m,
+    updatedAt: [32m'2023-03-08T14:47:04.912Z'[39m
+  },
+  {
+    _id: [32m'64089faf24b25627a25315cd'[39m,
+    name: [32m'Dell'[39m,
+    slug: [32m'dell'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286767914.png'[39m,
+    createdAt: [32m'2023-03-08T14:46:07.963Z'[39m,
+    updatedAt: [32m'2023-03-08T14:46:07.963Z'[39m
+  },
+  {
+    _id: [32m'64089f8b24b25627a25315ca'[39m,
+    name: [32m'Lenovo'[39m,
+    slug: [32m'lenovo'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286730980.png'[39m,
+    createdAt: [32m'2023-03-08T14:45:31.041Z'[39m,
+    updatedAt: [32m'2023-03-08T14:45:31.041Z'[39m
+  },
+  {
+    _id: [32m'64089f5824b25627a25315c7'[39m,
+    name: [32m'SONY'[39m,
+    slug: [32m'sony'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png'[39m,
+    createdAt: [32m'2023-03-08T14:44:40.740Z'[39m,
+    updatedAt: [32m'2023-03-08T14:44:40.740Z'[39m
+  },
+  {
+    _id: [32m'64089f1c24b25627a25315c3'[39m,
+    name: [32m'Infinix'[39m,
+    slug: [32m'infinix'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286620402.png'[39m,
+    createdAt: [32m'2023-03-08T14:43:40.601Z'[39m,
+    updatedAt: [32m'2023-03-08T14:43:40.601Z'[39m
+  },
+  {
+    _id: [32m'64089ef124b25627a25315c0'[39m,
+    name: [32m'Realme'[39m,
+    slug: [32m'realme'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286577463.png'[39m,
+    createdAt: [32m'2023-03-08T14:42:57.494Z'[39m,
+    updatedAt: [32m'2023-03-08T14:42:57.494Z'[39m
+  },
+  {
+    _id: [32m'64089ecb24b25627a25315bd'[39m,
+    name: [32m'HONOR'[39m,
+    slug: [32m'honor'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286539788.png'[39m,
+    createdAt: [32m'2023-03-08T14:42:19.819Z'[39m,
+    updatedAt: [32m'2023-03-08T14:42:19.819Z'[39m
+  },
+  {
+    _id: [32m'64089ea624b25627a25315ba'[39m,
+    name: [32m'Nokia'[39m,
+    slug: [32m'nokia'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286502288.png'[39m,
+    createdAt: [32m'2023-03-08T14:41:42.322Z'[39m,
+    updatedAt: [32m'2023-03-08T14:41:42.322Z'[39m
+  },
+  {
+    _id: [32m'64089e8124b25627a25315b7'[39m,
+    name: [32m'OPPO'[39m,
+    slug: [32m'oppo'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286465856.png'[39m,
+    createdAt: [32m'2023-03-08T14:41:05.891Z'[39m,
+    updatedAt: [32m'2023-03-08T14:41:05.891Z'[39m
+  },
+  {
+    _id: [32m'64089e5524b25627a25315b4'[39m,
+    name: [32m'Huawei'[39m,
+    slug: [32m'huawei'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286421517.png'[39m,
+    createdAt: [32m'2023-03-08T14:40:21.568Z'[39m,
+    updatedAt: [32m'2023-03-08T14:40:21.568Z'[39m
+  },
+  {
+    _id: [32m'64089e3724b25627a25315b1'[39m,
+    name: [32m'Apple'[39m,
+    slug: [32m'apple'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286391415.png'[39m,
+    createdAt: [32m'2023-03-08T14:39:51.467Z'[39m,
+    updatedAt: [32m'2023-03-08T14:39:51.467Z'[39m
+  },
+  {
+    _id: [32m'64089e1e24b25627a25315ae'[39m,
+    name: [32m'Xiaomi'[39m,
+    slug: [32m'xiaomi'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286366797.png'[39m,
+    createdAt: [32m'2023-03-08T14:39:26.897Z'[39m,
+    updatedAt: [32m'2023-03-08T14:39:26.897Z'[39m
+  },
+  {
+    _id: [32m'64089df124b25627a25315ab'[39m,
+    name: [32m'Samsung'[39m,
+    slug: [32m'samsung'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286321029.png'[39m,
+    createdAt: [32m'2023-03-08T14:38:41.380Z'[39m,
+    updatedAt: [32m'2023-03-08T14:38:41.380Z'[39m
+  },
+  {
+    _id: [32m'64089dc924b25627a25315a8'[39m,
+    name: [32m'Jack & Jones'[39m,
+    slug: [32m'jack-and-jones'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286281363.png'[39m,
+    createdAt: [32m'2023-03-08T14:38:01.423Z'[39m,
+    updatedAt: [32m'2023-03-08T14:38:01.423Z'[39m
+  },
+  {
+    _id: [32m'64089d9e24b25627a25315a5'[39m,
+    name: [32m'LC Waikiki'[39m,
+    slug: [32m'lc-waikiki'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m,
+    createdAt: [32m'2023-03-08T14:37:18.790Z'[39m,
+    updatedAt: [32m'2023-03-08T14:37:18.790Z'[39m
+  },
+  {
+    _id: [32m'64089d7c24b25627a25315a2'[39m,
+    name: [32m'Andora'[39m,
+    slug: [32m'andora'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286204060.png'[39m,
+    createdAt: [32m'2023-03-08T14:36:44.309Z'[39m,
+    updatedAt: [32m'2023-03-08T14:36:44.309Z'[39m
+  },
+  {
+    _id: [32m'64089d5c24b25627a253159f'[39m,
+    name: [32m'Puma'[39m,
+    slug: [32m'puma'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286172219.png'[39m,
+    createdAt: [32m'2023-03-08T14:36:12.269Z'[39m,
+    updatedAt: [32m'2023-03-08T14:36:12.269Z'[39m
+  },
+  {
+    _id: [32m'64089d3e24b25627a253159c'[39m,
+    name: [32m'Skechers'[39m,
+    slug: [32m'skechers'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286142113.png'[39m,
+    createdAt: [32m'2023-03-08T14:35:42.167Z'[39m,
+    updatedAt: [32m'2023-03-08T14:35:42.167Z'[39m
+  },
+  {
+    _id: [32m'64089d1324b25627a2531599'[39m,
+    name: [32m'Reserved'[39m,
+    slug: [32m'reserved'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286099850.png'[39m,
+    createdAt: [32m'2023-03-08T14:34:59.890Z'[39m,
+    updatedAt: [32m'2023-03-08T14:34:59.890Z'[39m
+  },
+  {
+    _id: [32m'64089ceb24b25627a2531596'[39m,
+    name: [32m'Reebok'[39m,
+    slug: [32m'reebok'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286058845.png'[39m,
+    createdAt: [32m'2023-03-08T14:34:19.466Z'[39m,
+    updatedAt: [32m'2023-03-08T14:34:19.466Z'[39m
+  },
+  {
+    _id: [32m'64089c3924b25627a2531593'[39m,
+    name: [32m'Adidas'[39m,
+    slug: [32m'adidas'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m,
+    createdAt: [32m'2023-03-08T14:31:21.966Z'[39m,
+    updatedAt: [32m'2023-03-08T14:31:21.966Z'[39m
+  },
+  {
+    _id: [32m'64089c0d24b25627a2531590'[39m,
+    name: [32m'Nike'[39m,
+    slug: [32m'nike'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285837630.png'[39m,
+    createdAt: [32m'2023-03-08T14:30:37.794Z'[39m,
+    updatedAt: [32m'2023-03-08T14:30:37.794Z'[39m
+  },
+  {
+    _id: [32m'64089bbe24b25627a253158b'[39m,
+    name: [32m'DeFacto'[39m,
+    slug: [32m'defacto'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m,
+    createdAt: [32m'2023-03-08T14:29:18.205Z'[39m,
+    updatedAt: [32m'2023-03-08T14:29:18.205Z'[39m
+  },
+  {
+    _id: [32m'64089b9c24b25627a2531588'[39m,
+    name: [32m'Beko'[39m,
+    slug: [32m'beko'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285724527.png'[39m,
+    createdAt: [32m'2023-03-08T14:28:44.636Z'[39m,
+    updatedAt: [32m'2023-03-08T14:28:44.636Z'[39m
+  },
+  {
+    _id: [32m'64089b8224b25627a2531585'[39m,
+    name: [32m'Kenwood'[39m,
+    slug: [32m'kenwood'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285698559.png'[39m,
+    createdAt: [32m'2023-03-08T14:28:18.615Z'[39m,
+    updatedAt: [32m'2023-03-08T14:28:18.615Z'[39m
+  },
+  {
+    _id: [32m'64089b5224b25627a2531582'[39m,
+    name: [32m'Black + Decker'[39m,
+    slug: [32m'black-+-decker'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285650508.png'[39m,
+    createdAt: [32m'2023-03-08T14:27:30.557Z'[39m,
+    updatedAt: [32m'2023-03-08T14:27:30.557Z'[39m
+  },
+  {
+    _id: [32m'64089b1824b25627a253157f'[39m,
+    name: [32m'Mienta'[39m,
+    slug: [32m'mienta'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285592826.png'[39m,
+    createdAt: [32m'2023-03-08T14:26:32.996Z'[39m,
+    updatedAt: [32m'2023-03-08T14:26:32.996Z'[39m
+  },
+  {
+    _id: [32m'64089af624b25627a253157c'[39m,
+    name: [32m'Fresh'[39m,
+    slug: [32m'fresh'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285558892.png'[39m,
+    createdAt: [32m'2023-03-08T14:25:58.960Z'[39m,
+    updatedAt: [32m'2023-03-08T14:25:58.960Z'[39m
+  },
+  {
+    _id: [32m'64089acd24b25627a2531579'[39m,
+    name: [32m'Philips'[39m,
+    slug: [32m'philips'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285517454.png'[39m,
+    createdAt: [32m'2023-03-08T14:25:17.483Z'[39m,
+    updatedAt: [32m'2023-03-08T14:25:17.483Z'[39m
+  },
+  {
+    _id: [32m'64089aa924b25627a2531576'[39m,
+    name: [32m'Toshiba'[39m,
+    slug: [32m'toshiba'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285481289.png'[39m,
+    createdAt: [32m'2023-03-08T14:24:41.334Z'[39m,
+    updatedAt: [32m'2023-03-08T14:24:41.334Z'[39m
+  },
+  {
+    _id: [32m'64089a8724b25627a2531573'[39m,
+    name: [32m'Tornado'[39m,
+    slug: [32m'tornado'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285447068.png'[39m,
+    createdAt: [32m'2023-03-08T14:24:07.102Z'[39m,
+    updatedAt: [32m'2023-03-08T14:24:07.102Z'[39m
+  },
+  {
+    _id: [32m'64089a3724b25627a2531570'[39m,
+    name: [32m'Braun'[39m,
+    slug: [32m'braun'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285367650.png'[39m,
+    createdAt: [32m'2023-03-08T14:22:47.709Z'[39m,
+    updatedAt: [32m'2023-03-08T14:22:47.709Z'[39m
+  },
+  {
+    _id: [32m'64089a0c24b25627a253156d'[39m,
+    name: [32m'Garnier'[39m,
+    slug: [32m'garnier'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285324193.png'[39m,
+    createdAt: [32m'2023-03-08T14:22:04.241Z'[39m,
+    updatedAt: [32m'2023-03-08T14:22:04.241Z'[39m
+  },
+  {
+    _id: [32m'640899dd24b25627a253156a'[39m,
+    name: [32m'Essence'[39m,
+    slug: [32m'essence'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285277076.png'[39m,
+    createdAt: [32m'2023-03-08T14:21:17.103Z'[39m,
+    updatedAt: [32m'2023-03-08T14:21:17.103Z'[39m
+  },
+  {
+    _id: [32m'640899b824b25627a2531567'[39m,
+    name: [32m'Bourjois'[39m,
+    slug: [32m'bourjois'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285240940.png'[39m,
+    createdAt: [32m'2023-03-08T14:20:41.002Z'[39m,
+    updatedAt: [32m'2023-03-08T14:20:41.002Z'[39m
+  },
+  {
+    _id: [32m'6408999124b25627a2531564'[39m,
+    name: [32m'Kemei'[39m,
+    slug: [32m'kemei'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285201152.png'[39m,
+    createdAt: [32m'2023-03-08T14:20:01.189Z'[39m,
+    updatedAt: [32m'2023-03-08T14:20:01.189Z'[39m
+  },
+  {
+    _id: [32m'6408993b24b25627a2531561'[39m,
+    name: [32m'Carolina Herrera'[39m,
+    slug: [32m'carolina-herrera'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285115409.png'[39m,
+    createdAt: [32m'2023-03-08T14:18:35.560Z'[39m,
+    updatedAt: [32m'2023-03-08T14:18:35.560Z'[39m
+  },
+  {
+    _id: [32m'6408990924b25627a253155e'[39m,
+    name: [32m'Calvin Klein'[39m,
+    slug: [32m'calvin-klein'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285065497.png'[39m,
+    createdAt: [32m'2023-03-08T14:17:45.633Z'[39m,
+    updatedAt: [32m'2023-03-08T14:17:45.633Z'[39m
+  },
+  {
+    _id: [32m'640898e124b25627a253155b'[39m,
+    name: [32m'Loreal'[39m,
+    slug: [32m'loreal'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285025559.png'[39m,
+    createdAt: [32m'2023-03-08T14:17:05.885Z'[39m,
+    updatedAt: [32m'2023-03-08T14:17:05.885Z'[39m
+  },
+  {
+    _id: [32m'6408976224b25627a2531558'[39m,
+    name: [32m'Maybelline'[39m,
+    slug: [32m'maybelline'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678284642946.png'[39m,
+    createdAt: [32m'2023-03-08T14:10:42.968Z'[39m,
+    updatedAt: [32m'2023-03-08T14:10:42.968Z'[39m
+  }
+]
+  Generating static pages using 23 workers (9/19) 
+[
+  {
+    _id: [32m'6439d61c0049ad0b52b90051'[39m,
+    name: [32m'Music'[39m,
+    slug: [32m'music'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511964020.jpeg'[39m,
+    createdAt: [32m'2023-04-14T22:39:24.365Z'[39m,
+    updatedAt: [32m'2023-04-14T22:39:24.365Z'[39m
+  },
+  {
+    _id: [32m'6439d5b90049ad0b52b90048'[39m,
+    name: [32m"Men's Fashion"[39m,
+    slug: [32m"men's-fashion"[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m,
+    createdAt: [32m'2023-04-14T22:37:45.627Z'[39m,
+    updatedAt: [32m'2023-04-14T22:37:45.627Z'[39m
+  },
+  {
+    _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+    name: [32m"Women's Fashion"[39m,
+    slug: [32m"women's-fashion"[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m,
+    createdAt: [32m'2023-04-14T22:36:58.118Z'[39m,
+    updatedAt: [32m'2023-04-14T22:36:58.118Z'[39m
+  },
+  {
+    _id: [32m'6439d41c67d9aa4ca97064d5'[39m,
+    name: [32m'SuperMarket'[39m,
+    slug: [32m'supermarket'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511452254.png'[39m,
+    createdAt: [32m'2023-04-14T22:30:52.311Z'[39m,
+    updatedAt: [32m'2023-04-14T22:30:52.311Z'[39m
+  },
+  {
+    _id: [32m'6439d40367d9aa4ca97064cc'[39m,
+    name: [32m'Baby & Toys'[39m,
+    slug: [32m'baby-and-toys'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511427130.png'[39m,
+    createdAt: [32m'2023-04-14T22:30:27.166Z'[39m,
+    updatedAt: [32m'2023-04-14T22:30:27.166Z'[39m
+  },
+  {
+    _id: [32m'6439d3e067d9aa4ca97064c3'[39m,
+    name: [32m'Home'[39m,
+    slug: [32m'home'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511392672.png'[39m,
+    createdAt: [32m'2023-04-14T22:29:52.763Z'[39m,
+    updatedAt: [32m'2023-04-14T22:29:52.763Z'[39m
+  },
+  {
+    _id: [32m'6439d3c867d9aa4ca97064ba'[39m,
+    name: [32m'Books'[39m,
+    slug: [32m'books'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511368164.png'[39m,
+    createdAt: [32m'2023-04-14T22:29:28.200Z'[39m,
+    updatedAt: [32m'2023-04-14T22:29:28.200Z'[39m
+  },
+  {
+    _id: [32m'6439d30b67d9aa4ca97064b1'[39m,
+    name: [32m'Beauty & Health'[39m,
+    slug: [32m'beauty-and-health'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511179514.png'[39m,
+    createdAt: [32m'2023-04-14T22:26:19.587Z'[39m,
+    updatedAt: [32m'2023-04-14T22:26:19.587Z'[39m
+  },
+  {
+    _id: [32m'6439d2f467d9aa4ca97064a8'[39m,
+    name: [32m'Mobiles'[39m,
+    slug: [32m'mobiles'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511156008.png'[39m,
+    createdAt: [32m'2023-04-14T22:25:56.071Z'[39m,
+    updatedAt: [32m'2023-04-14T22:25:56.071Z'[39m
+  },
+  {
+    _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+    name: [32m'Electronics'[39m,
+    slug: [32m'electronics'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m,
+    createdAt: [32m'2023-04-14T22:25:21.783Z'[39m,
+    updatedAt: [32m'2023-04-14T22:25:21.783Z'[39m
+  }
+]
+loading
+loading
+  Generating static pages using 23 workers (14/19) 
+Raw API data: {
+  sold: [33m23716[39m,
+  images: [
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-1.jpeg'[39m,
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-2.jpeg'[39m,
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397483-3.jpeg'[39m,
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397485-4.jpeg'[39m
+  ],
+  subcategory: [
+    {
+      _id: [32m'6407f1bcb575d3b90bf95797'[39m,
+      name: [32m"Women's Clothing"[39m,
+      slug: [32m"women's-clothing"[39m,
+      category: [32m'6439d58a0049ad0b52b9003f'[39m
+    }
+  ],
+  ratingsQuantity: [33m18[39m,
+  _id: [32m'6428ebc6dc1175abc65ca0b9'[39m,
+  title: [32m'Woman Shawl'[39m,
+  slug: [32m'woman-shawl'[39m,
+  description: [32m'Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen'[39m,
+  quantity: [33m225[39m,
+  price: [33m191[39m,
+  imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg'[39m,
+  category: {
+    _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+    name: [32m"Women's Fashion"[39m,
+    slug: [32m"women's-fashion"[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+  },
+  brand: {
+    _id: [32m'64089bbe24b25627a253158b'[39m,
+    name: [32m'DeFacto'[39m,
+    slug: [32m'defacto'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+  },
+  ratingsAverage: [33m4.8[39m,
+  createdAt: [32m'2023-04-02T02:43:18.400Z'[39m,
+  updatedAt: [32m'2026-02-05T12:34:07.619Z'[39m,
+  id: [32m'6428ebc6dc1175abc65ca0b9'[39m
+}
+[
+  {
+    sold: [33m23716[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397483-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397485-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m18[39m,
+    _id: [32m'6428ebc6dc1175abc65ca0b9'[39m,
+    title: [32m'Woman Shawl'[39m,
+    slug: [32m'woman-shawl'[39m,
+    description: [32m'Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen'[39m,
+    quantity: [33m225[39m,
+    price: [33m191[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.8[39m,
+    createdAt: [32m'2023-04-02T02:43:18.400Z'[39m,
+    updatedAt: [32m'2026-02-05T12:34:07.619Z'[39m,
+    id: [32m'6428ebc6dc1175abc65ca0b9'[39m
+  },
+  {
+    sold: [33m4.565875507206704e+305[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403266805-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403266806-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403266806-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403266807-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m18[39m,
+    _id: [32m'6428eb43dc1175abc65ca0b3'[39m,
+    title: [32m'Woman Shawl'[39m,
+    slug: [32m'woman-shawl'[39m,
+    description: [32m'Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen'[39m,
+    quantity: [33m220[39m,
+    price: [33m149[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403266739-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.8[39m,
+    createdAt: [32m'2023-04-02T02:41:07.506Z'[39m,
+    updatedAt: [32m'2026-02-05T12:32:10.858Z'[39m,
+    id: [32m'6428eb43dc1175abc65ca0b3'[39m
+  },
+  {
+    sold: [33m3.0643459779910765e+303[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403156555-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403156555-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403156554-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403156556-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m18[39m,
+    _id: [32m'6428ead5dc1175abc65ca0ad'[39m,
+    title: [32m'Woman Shawl'[39m,
+    slug: [32m'woman-shawl'[39m,
+    description: [32m'Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen'[39m,
+    quantity: [33m220[39m,
+    price: [33m149[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403156501-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.8[39m,
+    createdAt: [32m'2023-04-02T02:39:17.204Z'[39m,
+    updatedAt: [32m'2026-02-04T23:09:54.320Z'[39m,
+    id: [32m'6428ead5dc1175abc65ca0ad'[39m
+  },
+  {
+    sold: [33m23094[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402838330-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402838331-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402838332-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402838331-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402838332-5.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m18[39m,
+    _id: [32m'6428e997dc1175abc65ca0a1'[39m,
+    title: [32m'Woman Shawl'[39m,
+    slug: [32m'woman-shawl'[39m,
+    description: [32m'Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen'[39m,
+    quantity: [33m220[39m,
+    price: [33m149[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402838276-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.8[39m,
+    createdAt: [32m'2023-04-02T02:33:59.274Z'[39m,
+    updatedAt: [32m'2026-02-05T12:36:02.476Z'[39m,
+    id: [32m'6428e997dc1175abc65ca0a1'[39m
+  },
+  {
+    sold: [33m6.848813260810056e+307[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402563676-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402563676-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402563677-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402563675-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402563677-5.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m10[39m,
+    _id: [32m'6428e884dc1175abc65ca096'[39m,
+    title: [32m'Woman Shawl'[39m,
+    slug: [32m'woman-shawl'[39m,
+    description: [32m'Material\tPolyester Blend\nColour Name\tBeige\nDepartment\tWomen'[39m,
+    quantity: [33m228[39m,
+    price: [33m349[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402563605-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.2[39m,
+    createdAt: [32m'2023-04-02T02:29:24.696Z'[39m,
+    updatedAt: [32m'2026-02-05T12:32:10.858Z'[39m,
+    id: [32m'6428e884dc1175abc65ca096'[39m
+  },
+  {
+    sold: [1mnull[22m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402411883-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402411883-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402411883-1.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m10[39m,
+    _id: [32m'6428e7ecdc1175abc65ca090'[39m,
+    title: [32m'Woman Bordeaux Long Sleeve Blouse BORDEAUX'[39m,
+    slug: [32m'woman-bordeaux-long-sleeve-blouse-bordeaux'[39m,
+    description: [32m'ShellFabric1 Cotton 65% Polyester 35%'[39m,
+    quantity: [33m228[39m,
+    price: [33m499[39m,
+    priceAfterDiscount: [33m349[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402411833-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.2[39m,
+    createdAt: [32m'2023-04-02T02:26:52.509Z'[39m,
+    updatedAt: [32m'2026-02-05T10:43:24.158Z'[39m,
+    id: [32m'6428e7ecdc1175abc65ca090'[39m
+  },
+  {
+    sold: [33m8694[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402296306-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402296305-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402296305-2.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m5[39m,
+    _id: [32m'6428e778dc1175abc65ca08a'[39m,
+    title: [32m'Woman Brown Long Sleeve Tunic LT.CAMEL'[39m,
+    slug: [32m'woman-brown-long-sleeve-tunic-lt.camel'[39m,
+    description: [32m'ShellFabric1 Cotton 65% Polyester 35%'[39m,
+    quantity: [33m229[39m,
+    price: [33m499[39m,
+    priceAfterDiscount: [33m359[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680402295928-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.7[39m,
+    createdAt: [32m'2023-04-02T02:24:56.975Z'[39m,
+    updatedAt: [32m'2026-02-05T12:32:10.858Z'[39m,
+    id: [32m'6428e778dc1175abc65ca08a'[39m
+  },
+  {
+    sold: [33m8369[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401893496-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401893496-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401893497-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401893496-3.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m5[39m,
+    _id: [32m'6428e5e6dc1175abc65ca084'[39m,
+    title: [32m'Woman Standart Fit Knitted Cardigan'[39m,
+    slug: [32m'woman-standart-fit-knitted-cardigan'[39m,
+    description: [32m'Material\tPolyester Blend\nColour Name\tBeige\nDepartment\tWomen'[39m,
+    quantity: [33m222[39m,
+    price: [33m499[39m,
+    priceAfterDiscount: [33m449[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401893316-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.8[39m,
+    createdAt: [32m'2023-04-02T02:18:14.346Z'[39m,
+    updatedAt: [32m'2026-02-05T02:52:32.199Z'[39m,
+    id: [32m'6428e5e6dc1175abc65ca084'[39m
+  },
+  {
+    sold: [33m7726[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401672624-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401672623-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401672624-3.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m1[39m,
+    _id: [32m'6428e509dc1175abc65ca07e'[39m,
+    title: [32m'Relaxed Fit Knitted Joggers Lilac'[39m,
+    slug: [32m'relaxed-fit-knitted-joggers-lilac'[39m,
+    description: [32m'Colour Name\tPink\nDepartment\tWomen\nMaterial Composition\tPolyester Blend'[39m,
+    quantity: [33m222[39m,
+    price: [33m499[39m,
+    priceAfterDiscount: [33m189[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401672268-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m1[39m,
+    createdAt: [32m'2023-04-02T02:14:33.277Z'[39m,
+    updatedAt: [32m'2026-02-05T08:22:25.189Z'[39m,
+    id: [32m'6428e509dc1175abc65ca07e'[39m
+  },
+  {
+    sold: [33m8081[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401528923-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401528924-2.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m6[39m,
+    _id: [32m'6428e479dc1175abc65ca078'[39m,
+    title: [32m'Woman Socks'[39m,
+    slug: [32m'woman-socks'[39m,
+    description: [32m'Colour Name\tPink\nDepartment\tWomen\nMaterial Composition\tPolyester Blend'[39m,
+    quantity: [33m117[39m,
+    price: [33m199[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401528864-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m4.3[39m,
+    createdAt: [32m'2023-04-02T02:12:09.566Z'[39m,
+    updatedAt: [32m'2026-02-04T16:00:09.242Z'[39m,
+    id: [32m'6428e479dc1175abc65ca078'[39m
+  },
+  {
+    sold: [33m6360[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401176767-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401176766-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401176768-3.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m1[39m,
+    _id: [32m'6428e319dc1175abc65ca06d'[39m,
+    title: [32m'Woman Karma Socks Multicolour'[39m,
+    slug: [32m'woman-karma-socks-multicolour'[39m,
+    description: [32m'Soft and comfortable cotton fabric\n'[39m +
+      [32m'Crew neck and short sleeves\n'[39m +
+      [32m'Comfortable, regular fit\n'[39m +
+      [32m'Wash according to care label instructions'[39m,
+    quantity: [33m117[39m,
+    price: [33m199[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680401176411-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+      name: [32m"Women's Fashion"[39m,
+      slug: [32m"women's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089bbe24b25627a253158b'[39m,
+      name: [32m'DeFacto'[39m,
+      slug: [32m'defacto'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+    },
+    ratingsAverage: [33m2[39m,
+    createdAt: [32m'2023-04-02T02:06:17.489Z'[39m,
+    updatedAt: [32m'2026-02-04T22:17:43.105Z'[39m,
+    id: [32m'6428e319dc1175abc65ca06d'[39m
+  },
+  {
+    sold: [33m5473[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400287765-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400287767-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400287767-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400287765-2.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m6[39m,
+    _id: [32m'6428dfa0dc1175abc65ca067'[39m,
+    title: [32m'Logo T-Shirt Green'[39m,
+    slug: [32m'logo-t-shirt-green'[39m,
+    description: [32m'Soft and comfortable cotton fabric\n'[39m +
+      [32m'Crew neck and short sleeves\n'[39m +
+      [32m'Comfortable, regular fit\n'[39m +
+      [32m'Wash according to care label instructions'[39m,
+    quantity: [33m111[39m,
+    price: [33m744[39m,
+    priceAfterDiscount: [33m379[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400287654-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089dc924b25627a25315a8'[39m,
+      name: [32m'Jack & Jones'[39m,
+      slug: [32m'jack-and-jones'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286281363.png'[39m
+    },
+    ratingsAverage: [33m2[39m,
+    createdAt: [32m'2023-04-02T01:51:28.886Z'[39m,
+    updatedAt: [32m'2026-02-05T04:17:43.394Z'[39m,
+    id: [32m'6428dfa0dc1175abc65ca067'[39m
+  },
+  {
+    sold: [33m3613[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400120770-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400120771-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400120769-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400120771-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m14[39m,
+    _id: [32m'6428def9dc1175abc65ca061'[39m,
+    title: [32m'Orca Leather Boots Anthracite'[39m,
+    slug: [32m'orca-leather-boots-anthracite'[39m,
+    description: [32m'Genuine and smooth leather upper\n'[39m +
+      [32m'Secure lace-ups with side zipper closure\n'[39m +
+      [32m'Slightly cushioned footbed provides comfort\n'[39m +
+      [32m'Patterned chunky outsole provides traction and grip'[39m,
+    quantity: [33m273[39m,
+    price: [33m4829[39m,
+    priceAfterDiscount: [33m3064[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680400120400-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089dc924b25627a25315a8'[39m,
+      name: [32m'Jack & Jones'[39m,
+      slug: [32m'jack-and-jones'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286281363.png'[39m
+    },
+    ratingsAverage: [33m4.9[39m,
+    createdAt: [32m'2023-04-02T01:48:41.533Z'[39m,
+    updatedAt: [32m'2026-02-05T11:58:31.508Z'[39m,
+    id: [32m'6428def9dc1175abc65ca061'[39m
+  },
+  {
+    sold: [33m4386[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399913850-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399913851-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399913850-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399913851-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399913851-5.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m20[39m,
+    _id: [32m'6428de2adc1175abc65ca05b'[39m,
+    title: [32m'Softride Enzo NXT CASTLEROCK-High Risk R'[39m,
+    slug: [32m'softride-enzo-nxt-castlerock-high-risk-r'[39m,
+    description: [32m'Sole Material\tRubber\nColour Name\tRED\nDepartment\tMen'[39m,
+    quantity: [33m173[39m,
+    price: [33m2999[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399913757-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d5c24b25627a253159f'[39m,
+      name: [32m'Puma'[39m,
+      slug: [32m'puma'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286172219.png'[39m
+    },
+    ratingsAverage: [33m2.8[39m,
+    createdAt: [32m'2023-04-02T01:45:14.676Z'[39m,
+    updatedAt: [32m'2026-02-04T22:09:51.964Z'[39m,
+    id: [32m'6428de2adc1175abc65ca05b'[39m
+  },
+  {
+    sold: [33m4330[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399661306-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399661306-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399661306-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399661305-1.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m20[39m,
+    _id: [32m'6428dd2edc1175abc65ca055'[39m,
+    title: [32m'ESS Big Logo Hoodie TR Puma Black'[39m,
+    slug: [32m'ess-big-logo-hoodie-tr-puma-black'[39m,
+    description: [32m'Material\tCombination\nColour Name\tblack\nDepartment\tMen'[39m,
+    quantity: [33m200[39m,
+    price: [33m2649[39m,
+    priceAfterDiscount: [33m2599[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680399661234-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d5c24b25627a253159f'[39m,
+      name: [32m'Puma'[39m,
+      slug: [32m'puma'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286172219.png'[39m
+    },
+    ratingsAverage: [33m4.8[39m,
+    createdAt: [32m'2023-04-02T01:41:02.053Z'[39m,
+    updatedAt: [32m'2026-02-05T08:19:16.385Z'[39m,
+    id: [32m'6428dd2edc1175abc65ca055'[39m
+  },
+  {
+    sold: [33m3119[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396593909-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396593909-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396593909-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396593910-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m20[39m,
+    _id: [32m'6428d132dc1175abc65ca04f'[39m,
+    title: [32m'Sportswear Club Graphic Hoodie Blue'[39m,
+    slug: [32m'sportswear-club-graphic-hoodie-blue'[39m,
+    description: [32m'Soft and lightweight knitted fabric\n'[39m +
+      [32m'Kangaroo pocket to front\n'[39m +
+      [32m'Wash according to care label instructions\n'[39m +
+      [32m'Nike signature branding detail'[39m,
+    quantity: [33m158[39m,
+    price: [33m2449[39m,
+    priceAfterDiscount: [33m1474[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396593789-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m4.8[39m,
+    createdAt: [32m'2023-04-02T00:49:54.825Z'[39m,
+    updatedAt: [32m'2026-02-04T08:24:20.000Z'[39m,
+    id: [32m'6428d132dc1175abc65ca04f'[39m
+  },
+  {
+    sold: [33m2533[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396038346-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396038347-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396038348-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396038347-3.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m20[39m,
+    _id: [32m'6428cf07dc1175abc65ca049'[39m,
+    title: [32m'NSW Everyday Essentials No-Show Socks (Pack of 3) White/Black'[39m,
+    slug: [32m'nsw-everyday-essentials-no-show-socks-(pack-of-3)-whiteblack'[39m,
+    description: [32m'Socks are highly comfort, stretchable and will manage moisture\n'[39m +
+      [32m'Ribbed elasticated mouths that ensure snug fitting\n'[39m +
+      [32m'Elasticated leg band which ensures easy wearability\n'[39m +
+      [32m'Carefully stitched to lend a neat finish\n'[39m +
+      [32m'Thick terry sole provides comfort and impact absorption'[39m,
+    quantity: [33m150[39m,
+    price: [33m1079[39m,
+    priceAfterDiscount: [33m634[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680396038304-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m4.2[39m,
+    createdAt: [32m'2023-04-02T00:40:39.312Z'[39m,
+    updatedAt: [32m'2026-02-03T21:04:08.385Z'[39m,
+    id: [32m'6428cf07dc1175abc65ca049'[39m
+  },
+  {
+    sold: [33m2672[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395860011-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395860011-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395860010-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395860011-3.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m17[39m,
+    _id: [32m'6428ce55dc1175abc65ca043'[39m,
+    title: [32m'Court Tennis Track Pants Black'[39m,
+    slug: [32m'court-tennis-track-pants-black'[39m,
+    description: [32m'Soft and sustainable polyester fabric\n'[39m +
+      [32m'Elastic waist for comfortable fit\n'[39m +
+      [32m'Multiple pockets for quick storage\n'[39m +
+      [32m'Wash according to care label instructions\n'[39m +
+      [32m'Nike signature branding detail'[39m,
+    quantity: [33m170[39m,
+    price: [33m3159[39m,
+    priceAfterDiscount: [33m2199[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395859874-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m2.8[39m,
+    createdAt: [32m'2023-04-02T00:37:41.008Z'[39m,
+    updatedAt: [32m'2026-02-04T14:18:51.399Z'[39m,
+    id: [32m'6428ce55dc1175abc65ca043'[39m
+  },
+  {
+    sold: [33m2219[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395632039-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395632040-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395632041-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395632040-3.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m20[39m,
+    _id: [32m'6428cd70dc1175abc65ca03d'[39m,
+    title: [32m'React Live Sneakers Black/White-Dk Smoke Grey'[39m,
+    slug: [32m'react-live-sneakers-blackwhite-dk-smoke-grey'[39m,
+    description: [32m'Comfortable and soft cotton blend fabric\n'[39m +
+      [32m'Ribbed crew neck and short sleeves\n'[39m +
+      [32m'adidas signature branding print\n'[39m +
+      [32m'Wash according to care label instructions'[39m,
+    quantity: [33m120[39m,
+    price: [33m4639[39m,
+    priceAfterDiscount: [33m3759[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395631938-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m3.7[39m,
+    createdAt: [32m'2023-04-02T00:33:52.861Z'[39m,
+    updatedAt: [32m'2026-02-04T22:17:43.105Z'[39m,
+    id: [32m'6428cd70dc1175abc65ca03d'[39m
+  },
+  {
+    sold: [33m44851[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395220690-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395220693-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395220692-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395220713-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m19[39m,
+    _id: [32m'6428cbd5dc1175abc65ca037'[39m,
+    title: [32m'Essentials Embroidered Linear Logo T-Shirt Navy'[39m,
+    slug: [32m'essentials-embroidered-linear-logo-t-shirt-navy'[39m,
+    description: [32m'Comfortable and soft cotton blend fabric\n'[39m +
+      [32m'Ribbed crew neck and short sleeves\n'[39m +
+      [32m'adidas signature branding print\n'[39m +
+      [32m'Wash according to care label instructions'[39m,
+    quantity: [33m118[39m,
+    price: [33m749[39m,
+    priceAfterDiscount: [33m504[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395220407-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m3.8[39m,
+    createdAt: [32m'2023-04-02T00:27:01.864Z'[39m,
+    updatedAt: [32m'2026-02-05T08:24:45.532Z'[39m,
+    id: [32m'6428cbd5dc1175abc65ca037'[39m
+  },
+  {
+    sold: [33m1826[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395033000-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395032999-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395033000-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395033000-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395033001-5.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m17[39m,
+    _id: [32m'6428cb19dc1175abc65ca031'[39m,
+    title: [32m'Salah Track Top'[39m,
+    slug: [32m'salah-track-top'[39m,
+    description: [32m'Material\tCotton Blend\nColour Name\tnight indigo\nDepartment\tMen'[39m,
+    quantity: [33m110[39m,
+    price: [33m1749[39m,
+    priceAfterDiscount: [33m1094[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680395032949-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m3.2[39m,
+    createdAt: [32m'2023-04-02T00:23:53.765Z'[39m,
+    updatedAt: [32m'2026-02-03T15:20:56.973Z'[39m,
+    id: [32m'6428cb19dc1175abc65ca031'[39m
+  },
+  {
+    sold: [33m1891[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394855240-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394855240-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394855239-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394855240-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m13[39m,
+    _id: [32m'6428ca68dc1175abc65ca02b'[39m,
+    title: [32m'Adicolor Classics Beckenbauer Primeblue Track Top'[39m,
+    slug: [32m'adicolor-classics-beckenbauer-primeblue-track-top'[39m,
+    description: [32m'Material\tCotton Blend\nColour Name\tnight indigo\nDepartment\tMen'[39m,
+    quantity: [33m120[39m,
+    price: [33m2379[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394855158-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m3.8[39m,
+    createdAt: [32m'2023-04-02T00:20:56.323Z'[39m,
+    updatedAt: [32m'2026-02-03T21:29:26.360Z'[39m,
+    id: [32m'6428ca68dc1175abc65ca02b'[39m
+  },
+  {
+    sold: [33m2045[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593459-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593460-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593460-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593461-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593462-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593461-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593462-7.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m13[39m,
+    _id: [32m'6428c962dc1175abc65ca025'[39m,
+    title: [32m'Duramo 10 Running Shoes'[39m,
+    slug: [32m'duramo-10-running-shoes'[39m,
+    description: [32m"Clean, fresh, understated style that takes your breath away. That's what you'll see when you pull these adidas kicks out of their box. Tonal 3-Stripes on the uncluttered synthetic leather upper rock a heritage vibe. A cushiony midsole adds soft support over the retro rubber outsole.\n"[39m,
+    quantity: [33m150[39m,
+    price: [33m1999[39m,
+    priceAfterDiscount: [33m1314[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680394593396-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m3.8[39m,
+    createdAt: [32m'2023-04-02T00:16:34.330Z'[39m,
+    updatedAt: [32m'2026-02-04T13:58:04.307Z'[39m,
+    id: [32m'6428c962dc1175abc65ca025'[39m
+  },
+  {
+    sold: [33m1446[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896545-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896545-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896546-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896544-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896546-7.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896546-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896546-5.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m2[39m,
+    _id: [32m'6428c6a9dc1175abc65ca01f'[39m,
+    title: [32m'Hoops 3.0 Low Classic Vintage Shoes'[39m,
+    slug: [32m'hoops-3.0-low-classic-vintage-shoes'[39m,
+    description: [32m"Clean, fresh, understated style that takes your breath away. That's what you'll see when you pull these adidas kicks out of their box. Tonal 3-Stripes on the uncluttered synthetic leather upper rock a heritage vibe. A cushiony midsole adds soft support over the retro rubber outsole.\n"[39m,
+    quantity: [33m70[39m,
+    price: [33m1629[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393896493-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m4.5[39m,
+    createdAt: [32m'2023-04-02T00:04:57.368Z'[39m,
+    updatedAt: [32m'2026-02-03T15:20:56.973Z'[39m,
+    id: [32m'6428c6a9dc1175abc65ca01f'[39m
+  },
+  {
+    sold: [33m1119[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655128-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655128-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655129-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655129-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655132-7.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655130-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655131-6.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m1[39m,
+    _id: [32m'6428c5b7dc1175abc65ca019'[39m,
+    title: [32m'Galaxy 6 Running Shoes'[39m,
+    slug: [32m'galaxy-6-running-shoes'[39m,
+    description: [32m'Material\tCotton Blend\n'[39m +
+      [32m'Colour Name\tBLUE\n'[39m +
+      [32m'Department\tMen\n'[39m +
+      [32m'Material Composition\tMAIN FABRIC: 64% Cotton 36% Polyester\n'[39m +
+      [32m'Item Pack Quantity\tSingle\n'[39m +
+      [32m'Pack Size\tSingle\n'[39m +
+      [32m'Model Number\tW21770Z8-S7N-823090\n'[39m +
+      [32m'Model Name\tW21770Z8-S7N-823090'[39m,
+    quantity: [33m60[39m,
+    price: [33m1629[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393655068-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089c3924b25627a2531593'[39m,
+      name: [32m'Adidas'[39m,
+      slug: [32m'adidas'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png'[39m
+    },
+    ratingsAverage: [33m5[39m,
+    createdAt: [32m'2023-04-02T00:00:55.928Z'[39m,
+    updatedAt: [32m'2026-02-02T21:04:46.991Z'[39m,
+    id: [32m'6428c5b7dc1175abc65ca019'[39m
+  },
+  {
+    sold: [33m1191[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393143751-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393143752-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393143752-2.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m3[39m,
+    _id: [32m'6428c3b8dc1175abc65ca00e'[39m,
+    title: [32m"Slim Fit Long Sleeve Dobby Men's Shirt"[39m,
+    slug: [32m"slim-fit-long-sleeve-dobby-men's-shirt"[39m,
+    description: [32m'Material\tCotton Blend\n'[39m +
+      [32m'Colour Name\tBLUE\n'[39m +
+      [32m'Department\tMen\n'[39m +
+      [32m'Material Composition\tMAIN FABRIC: 64% Cotton 36% Polyester\n'[39m +
+      [32m'Item Pack Quantity\tSingle\n'[39m +
+      [32m'Pack Size\tSingle\n'[39m +
+      [32m'Model Number\tW21770Z8-S7N-823090\n'[39m +
+      [32m'Model Name\tW21770Z8-S7N-823090'[39m,
+    quantity: [33m60[39m,
+    price: [33m549[39m,
+    priceAfterDiscount: [33m343[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680393143423-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m4.7[39m,
+    createdAt: [32m'2023-04-01T23:52:24.326Z'[39m,
+    updatedAt: [32m'2026-02-03T15:20:56.973Z'[39m,
+    id: [32m'6428c3b8dc1175abc65ca00e'[39m
+  },
+  {
+    sold: [33m1441[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392991339-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392991339-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392991340-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392991340-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392991341-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392991341-6.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m3[39m,
+    _id: [32m'6428c320dc1175abc65ca008'[39m,
+    title: [32m"Crew Neck Long Sleeve Men's Knitwear Sweater"[39m,
+    slug: [32m"crew-neck-long-sleeve-men's-knitwear-sweater"[39m,
+    description: [32m'Material\tCotton\n'[39m +
+      [32m'Colour Name\tNAVY\n'[39m +
+      [32m'Department\tMen\n'[39m +
+      [32m'Material Composition\tMAIN FABRIC: 100% Cotton'[39m,
+    quantity: [33m50[39m,
+    price: [33m449[39m,
+    priceAfterDiscount: [33m330[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392991271-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m4.7[39m,
+    createdAt: [32m'2023-04-01T23:49:52.387Z'[39m,
+    updatedAt: [32m'2026-02-04T13:07:22.684Z'[39m,
+    id: [32m'6428c320dc1175abc65ca008'[39m
+  },
+  {
+    sold: [33m1269[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392445792-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392445792-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392445792-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392445793-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m3[39m,
+    _id: [32m'6428c0fedc1175abc65c9ffd'[39m,
+    title: [32m"Crew Neck Long Sleeve Striped Men's Tricot Sweater"[39m,
+    slug: [32m"crew-neck-long-sleeve-striped-men's-tricot-sweater"[39m,
+    description: [32m'Tricot fabric, Tricot fabric, Ribbed ankles and bottom\n'[39m +
+      [32m'WASH AT MAXIMUM 30 °C, DO NOT USE BLEACH, DO NOT TUMBLE DRY, IRON AT LOW TEMPERATURE, DO NOT DRY CLEAN\n'[39m,
+    quantity: [33m100[39m,
+    price: [33m599[39m,
+    priceAfterDiscount: [33m539[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392445443-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m2[39m,
+    createdAt: [32m'2023-04-01T23:40:46.486Z'[39m,
+    updatedAt: [32m'2026-02-02T15:07:23.482Z'[39m,
+    id: [32m'6428c0fedc1175abc65c9ffd'[39m
+  },
+  {
+    sold: [33m1210[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392258020-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392258020-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392258022-7.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-5.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m3[39m,
+    _id: [32m'6428c042dc1175abc65c9ff7'[39m,
+    title: [32m"Crew Neck Long Sleeve Men's Tricot Sweater with Color Block"[39m,
+    slug: [32m"crew-neck-long-sleeve-men's-tricot-sweater-with-color-block"[39m,
+    description: [32m'Tricot fabric, Tricot fabric, Ribbed ankles and bottom\n'[39m +
+      [32m'WASH AT MAXIMUM 30 °C, DO NOT USE BLEACH, DO NOT TUMBLE DRY, IRON AT LOW TEMPERATURE, DO NOT DRY CLEAN\n'[39m,
+    quantity: [33m500[39m,
+    price: [33m549[39m,
+    priceAfterDiscount: [33m321[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680392257974-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m5[39m,
+    createdAt: [32m'2023-04-01T23:37:38.808Z'[39m,
+    updatedAt: [32m'2026-02-03T05:34:59.123Z'[39m,
+    id: [32m'6428c042dc1175abc65c9ff7'[39m
+  },
+  {
+    sold: [33m918[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391999434-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391999434-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391999435-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391999435-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m16[39m,
+    _id: [32m'6428bf40dc1175abc65c9ff1'[39m,
+    title: [32m"Polo Collar Short Sleeve Color Block Men's Knitwear Sweater"[39m,
+    slug: [32m"polo-collar-short-sleeve-color-block-men's-knitwear-sweater"[39m,
+    description: [32m'100% cotton fabric'[39m,
+    quantity: [33m360[39m,
+    price: [33m349[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391999270-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m3[39m,
+    createdAt: [32m'2023-04-01T23:33:20.197Z'[39m,
+    updatedAt: [32m'2026-02-04T13:07:22.684Z'[39m,
+    id: [32m'6428bf40dc1175abc65c9ff1'[39m
+  },
+  {
+    sold: [33m842[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391722627-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391722628-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391722626-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391722628-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391722628-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391722628-6.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m16[39m,
+    _id: [32m'6428be2bdc1175abc65c9fe6'[39m,
+    title: [32m"Crew Neck Long Sleeve Striped Men's Knitwear Sweater"[39m,
+    slug: [32m"crew-neck-long-sleeve-striped-men's-knitwear-sweater"[39m,
+    description: [32m'Colour Name\tBLUE\n'[39m +
+      [32m'Department\tMen\n'[39m +
+      [32m'Material Composition\tMAIN FABRIC: 100% Cotton\n'[39m +
+      [32m'Lining Material\tCotton\n'[39m +
+      [32m'Model Number\tW20952Z8-CTD\n'[39m +
+      [32m'Model Name\tW20952Z8-CTD'[39m,
+    quantity: [33m300[39m,
+    price: [33m549[39m,
+    priceAfterDiscount: [33m355[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391722468-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m3[39m,
+    createdAt: [32m'2023-04-01T23:28:43.578Z'[39m,
+    updatedAt: [32m'2026-01-31T18:57:43.054Z'[39m,
+    id: [32m'6428be2bdc1175abc65c9fe6'[39m
+  },
+  {
+    sold: [33m999[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391434704-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391434704-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391434705-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391434706-4.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m7[39m,
+    _id: [32m'6428bd0bdc1175abc65c9fdb'[39m,
+    title: [32m"Standard Pattern Plaid Fleece Men's Pajamas Set"[39m,
+    slug: [32m"standard-pattern-plaid-fleece-men's-pajamas-set"[39m,
+    description: [32m'Material\tPolyester\n'[39m +
+      [32m'Colour Name\tMulticolour\n'[39m +
+      [32m'Department\tMen\n'[39m +
+      [32m'Material Composition\tMAIN FABRIC: 100% Polyester\n'[39m +
+      [32m'Model Number\tW2BK93Z8-RQN\n'[39m +
+      [32m'Model Name\tW2BK93Z8-RQN-BLACK'[39m,
+    quantity: [33m200[39m,
+    price: [33m699[39m,
+    priceAfterDiscount: [33m456[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391434638-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m2.7[39m,
+    createdAt: [32m'2023-04-01T23:23:55.488Z'[39m,
+    updatedAt: [32m'2026-02-03T05:34:59.123Z'[39m,
+    id: [32m'6428bd0bdc1175abc65c9fdb'[39m
+  },
+  {
+    sold: [33m1289[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133904-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133905-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133905-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133906-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133907-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133907-7.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133906-5.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m6[39m,
+    _id: [32m'6428bbdedc1175abc65c9fce'[39m,
+    title: [32m"Slim Fit Stand Collar Men's Leather Look Coat"[39m,
+    slug: [32m"slim-fit-stand-collar-men's-leather-look-coat"[39m,
+    description: [32m'Colour Name\tBlack\n'[39m +
+      [32m'Department\tMen\n'[39m +
+      [32m'Model Number\tW21199Z8-CVL\n'[39m +
+      [32m'Model Name\tW21199Z8-CVL'[39m,
+    quantity: [33m200[39m,
+    price: [33m1499[39m,
+    priceAfterDiscount: [33m874[39m,
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680391133207-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d5b90049ad0b52b90048'[39m,
+      name: [32m"Men's Fashion"[39m,
+      slug: [32m"men's-fashion"[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m
+    },
+    brand: {
+      _id: [32m'64089d9e24b25627a25315a5'[39m,
+      name: [32m'LC Waikiki'[39m,
+      slug: [32m'lc-waikiki'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png'[39m
+    },
+    ratingsAverage: [33m2.6[39m,
+    createdAt: [32m'2023-04-01T23:18:54.840Z'[39m,
+    updatedAt: [32m'2026-02-04T01:32:39.293Z'[39m,
+    id: [32m'6428bbdedc1175abc65c9fce'[39m
+  },
+  {
+    sold: [33m2163[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677267-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677267-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677266-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677266-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677267-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677268-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677268-7.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677268-8.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677269-9.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m200[39m,
+    _id: [32m'6408e98e6406cd15828e8f30'[39m,
+    title: [32m'Archer VR300 AC1200 Wireless VDSL/ADSL Modem Router Black'[39m,
+    slug: [32m'archer-vr300-ac1200-wireless-vdsladsl-modem-router-black'[39m,
+    description: [32m'Parental Controls: manage responsible internet access for your children\n'[39m +
+      [32m'Guest Network|: provides separate access for guests while securing the home network\n'[39m +
+      [32m'Firewall Security: supports DoS, SPI Firewall, IP Addressing/Domain Filter, IP/MAC Address Binding\n'[39m +
+      [32m'Quality of Service: prioritizes network traffic by device or application, IPv6: compatible with IPv6 (Internet Protocol version 6)\n'[39m +
+      [32m'IPTV IGMP Proxy/Snooping: supports Bridge and Tag VLAN for smooth IPTV application, Multilingual Interface: provides hassle-free configuration in six languages (EN/DE/IT/TR/RU/PO)'[39m,
+    quantity: [33m399[39m,
+    price: [33m1699[39m,
+    availableColors: [],
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678305677165-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+      name: [32m'Electronics'[39m,
+      slug: [32m'electronics'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m
+    },
+    brand: {
+      _id: [32m'64089fe824b25627a25315d1'[39m,
+      name: [32m'Canon'[39m,
+      slug: [32m'canon'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286824747.png'[39m
+    },
+    ratingsAverage: [33m4.5[39m,
+    createdAt: [32m'2023-03-08T20:01:18.146Z'[39m,
+    updatedAt: [32m'2026-02-04T13:58:04.307Z'[39m,
+    id: [32m'6408e98e6406cd15828e8f30'[39m
+  },
+  {
+    sold: [33m1694[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304765005-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304765006-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304765006-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304765005-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304765006-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304765007-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304765007-7.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m60[39m,
+    _id: [32m'6408e5fd6406cd15828e8f28'[39m,
+    title: [32m'PIXMA G3420 Multi-Function Inkjet Printer Black'[39m,
+    slug: [32m'pixma-g3420-multi-function-inkjet-printer-black'[39m,
+    description: [32m'photos with a maximum print-color resolution of 4800 x 1200 dpi using FINE printhead technology. AirPrint allows you to print directly from your iPhone\n'[39m +
+      [32m'iPad or iPod touch wirelessly while built-in Wi-Fi technology allows you to print and scan wirelessly from virtually anywhere around your small office\n'[39m +
+      [32m'Environmentally friendly, Auto Duplex Printing allows you to automatically print on both sides of paper to reduce paper usage. Full HD Movie Print turns fav\n'[39m +
+      [32m'Innovative intelligence helps to achieve consistent results\n'[39m +
+      [32m'Easy and smooth to use as per convenience\n'[39m +
+      [32m'It is designed keeping your choice and requirement in mind'[39m,
+    quantity: [33m400[39m,
+    price: [33m5999[39m,
+    availableColors: [],
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304764905-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+      name: [32m'Electronics'[39m,
+      slug: [32m'electronics'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m
+    },
+    brand: {
+      _id: [32m'64089fe824b25627a25315d1'[39m,
+      name: [32m'Canon'[39m,
+      slug: [32m'canon'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286824747.png'[39m
+    },
+    ratingsAverage: [33m4.5[39m,
+    createdAt: [32m'2023-03-08T19:46:05.703Z'[39m,
+    updatedAt: [32m'2026-01-31T22:06:07.888Z'[39m,
+    id: [32m'6408e5fd6406cd15828e8f28'[39m
+  },
+  {
+    sold: [33m2094[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304313126-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304313127-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304313134-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304313135-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304313134-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304313135-6.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m60[39m,
+    _id: [32m'6408e43a6406cd15828e8f22'[39m,
+    title: [32m'EOS M50 Mark II Mirrorless Digital Camera With 15-45mm Lens Black'[39m,
+    slug: [32m'eos-m50-mark-ii-mirrorless-digital-camera-with-15-45mm-lens-black'[39m,
+    description: [32m'24.1 megapixel (aps-c) cmos sensor with iso 100-25600 (h: 51200)\n'[39m +
+      [32m'digic 8 image processor with auto lighting optimizer\n'[39m +
+      [32m'improved dual pixel cmos af and eye detection af (still/movie servo af support)\n'[39m +
+      [32m'4k uhd 24p and hd 120p for slow motion\n'[39m +
+      [32m'vari-angle touchscreen lcd convenient for vlogging and various composition'[39m,
+    quantity: [33m600[39m,
+    price: [33m19699[39m,
+    priceAfterDiscount: [33m19199[39m,
+    availableColors: [],
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678304313006-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+      name: [32m'Electronics'[39m,
+      slug: [32m'electronics'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m
+    },
+    brand: {
+      _id: [32m'64089fe824b25627a25315d1'[39m,
+      name: [32m'Canon'[39m,
+      slug: [32m'canon'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286824747.png'[39m
+    },
+    ratingsAverage: [33m4.3[39m,
+    createdAt: [32m'2023-03-08T19:38:34.436Z'[39m,
+    updatedAt: [32m'2026-02-01T03:15:06.058Z'[39m,
+    id: [32m'6408e43a6406cd15828e8f22'[39m
+  },
+  {
+    sold: [33m2548[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303526286-1.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m497[39m,
+    _id: [32m'6408e1266406cd15828e8f1c'[39m,
+    title: [32m'PS5 DualSense Charging Station'[39m,
+    slug: [32m'ps5-dualsense-charging-station'[39m,
+    description: [32m'Charge up to two DualSense Wireless Controllers at the same time without having to connect them to your PlayStation 5 Console\n'[39m +
+      [32m'Your Controllers charge as quickly as when connected to your PS5 Console – so you can free up USB ports without sacrificing performance\n'[39m +
+      [32m'Dock your DualSense Wireless Controllers quickly and easily with the charging station’s click-in design and leave them to charge at your convenience'[39m,
+    quantity: [33m600[39m,
+    price: [33m1045[39m,
+    availableColors: [],
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303526206-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+      name: [32m'Electronics'[39m,
+      slug: [32m'electronics'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m
+    },
+    brand: {
+      _id: [32m'64089df124b25627a25315ab'[39m,
+      name: [32m'Samsung'[39m,
+      slug: [32m'samsung'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286321029.png'[39m
+    },
+    ratingsAverage: [33m4.3[39m,
+    createdAt: [32m'2023-03-08T19:25:26.782Z'[39m,
+    updatedAt: [32m'2026-02-03T12:24:55.129Z'[39m,
+    id: [32m'6408e1266406cd15828e8f1c'[39m
+  },
+  {
+    sold: [33m2999[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324664-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324665-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324664-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324665-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324665-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324666-7.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324666-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324667-8.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m497[39m,
+    _id: [32m'6408e05d6406cd15828e8f16'[39m,
+    title: [32m'Galaxy Buds 2 Graphite'[39m,
+    slug: [32m'galaxy-buds-2-graphite'[39m,
+    description: [32m'Galaxy Buds 2 come up to 20 hours of playback time with active noise cancellation (ANC) turned on\n'[39m +
+      [32m'The TWS earphones appear to have a total of three microphones and an integrated voice recording unit for high quality calls\n'[39m +
+      [32m'The charging case offers an additional 15 hours worth of battery life\n'[39m +
+      [32m"Galaxy Buds2 ear buds take your passion for music to new heights with booming sound that makes you feel like you're on stage with your favorite band\n"[39m +
+      [32m"Galaxy Buds2 have a comfortable, low profile design that's 10% smaller and lighter than Galaxy Buds+; You may get to the end of your playlist before you remember you're wearing them at all\n"[39m +
+      [32m"The earbuds’ 3 microphones and noise reduction technology ensures voices are transmitted crisply and clearly, whether you're chatting with a friend or leading a high stakes conference call"[39m,
+    quantity: [33m600[39m,
+    price: [33m3999[39m,
+    availableColors: [],
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678303324588-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+      name: [32m'Electronics'[39m,
+      slug: [32m'electronics'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m
+    },
+    brand: {
+      _id: [32m'64089f5824b25627a25315c7'[39m,
+      name: [32m'SONY'[39m,
+      slug: [32m'sony'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png'[39m
+    },
+    ratingsAverage: [33m4.3[39m,
+    createdAt: [32m'2023-03-08T19:22:05.355Z'[39m,
+    updatedAt: [32m'2026-02-03T13:42:19.973Z'[39m,
+    id: [32m'6408e05d6406cd15828e8f16'[39m
+  },
+  {
+    sold: [33m3010[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803182-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803182-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803181-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803183-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803183-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803183-6.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803184-7.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803184-8.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803185-10.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803184-9.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m397[39m,
+    _id: [32m'6408de536406cd15828e8f10'[39m,
+    title: [32m'WH-CH510 Wireless On-Ear Bluetooth Headphones Black'[39m,
+    slug: [32m'wh-ch510-wireless-on-ear-bluetooth-headphones-black'[39m,
+    description: [32m'Bluetooth wireless technology for unrestricted movement\n'[39m +
+      [32m'Up to 35 hours of battery life for all-day power and quick charging\n'[39m +
+      [32m'Easy hands-free calling and voice assistant commands with microphone\n'[39m +
+      [32m'Compact and lightweight, swivel ear cups allow easy portability\n'[39m +
+      [32m"Simple button press connects you to your smartphone's voice assistant to get directions, play music\n"[39m +
+      [32m'Hear more detail with 30mm Driver Unit'[39m,
+    quantity: [33m600[39m,
+    price: [33m1949[39m,
+    availableColors: [],
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678302803089-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+      name: [32m'Electronics'[39m,
+      slug: [32m'electronics'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m
+    },
+    brand: {
+      _id: [32m'64089f5824b25627a25315c7'[39m,
+      name: [32m'SONY'[39m,
+      slug: [32m'sony'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png'[39m
+    },
+    ratingsAverage: [33m4.3[39m,
+    createdAt: [32m'2023-03-08T19:13:23.984Z'[39m,
+    updatedAt: [32m'2026-02-04T01:32:39.293Z'[39m,
+    id: [32m'6408de536406cd15828e8f10'[39m
+  },
+  {
+    sold: [33m4327[39m,
+    images: [
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678301723376-3.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678301723375-2.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678301723376-4.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678301723375-1.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678301723377-5.jpeg'[39m,
+      [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678301723377-6.jpeg'[39m
+    ],
+    subcategory: [ [36m[Object][39m ],
+    ratingsQuantity: [33m6[39m,
+    _id: [32m'6408da1c6406cd15828e8f0a'[39m,
+    title: [32m'Victus 16-D1016Ne Laptop With 16-Inch Display Core I7-12700H Processor 16Gb Ram 1Tb Nvidia Geforce Rtx3050 Ti Graphics English/Arabic Ceramic White'[39m,
+    slug: [32m'victus-16-d1016ne-laptop-with-16-inch-display-core-i7-12700h-processor-16gb-ram-1tb-nvidia-geforce-rtx3050-ti-graphics-englisharabic-ceramic-white'[39m,
+    description: [32m'NVIDIA GeForce RTX 3060, 6 GB GDDR6\n'[39m +
+      [32m'15.6", FHD 1920x1080, 120Hz, Non-Touch, AG, WVA, LED-Backlit, 300 nit, Narrow Border\n'[39m +
+      [32m'16 GB, 2 x 8 GB, DDR5, 4800 MHz, dual-channel\n'[39m +
+      [32m'512GB M.2 PCIe NVMe Solid State Drive, Nahimic 3D Audio\n'[39m +
+      [32m'Office Home & Student 2021, US English orange qwerty backlit keyboard with numeric keypad and G-key'[39m,
+    quantity: [33m253[39m,
+    price: [33m42960[39m,
+    availableColors: [],
+    imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1678301723274-cover.jpeg'[39m,
+    category: {
+      _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+      name: [32m'Electronics'[39m,
+      slug: [32m'electronics'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m
+    },
+    brand: {
+      _id: [32m'64089faf24b25627a25315cd'[39m,
+      name: [32m'Dell'[39m,
+      slug: [32m'dell'[39m,
+      image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678286767914.png'[39m
+    },
+    ratingsAverage: [33m4.3[39m,
+    createdAt: [32m'2023-03-08T18:55:24.096Z'[39m,
+    updatedAt: [32m'2026-02-05T11:03:34.977Z'[39m,
+    id: [32m'6408da1c6406cd15828e8f0a'[39m
+  }
+]
+loading
+[
+  {
+    _id: [32m'6439d61c0049ad0b52b90051'[39m,
+    name: [32m'Music'[39m,
+    slug: [32m'music'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511964020.jpeg'[39m,
+    createdAt: [32m'2023-04-14T22:39:24.365Z'[39m,
+    updatedAt: [32m'2023-04-14T22:39:24.365Z'[39m
+  },
+  {
+    _id: [32m'6439d5b90049ad0b52b90048'[39m,
+    name: [32m"Men's Fashion"[39m,
+    slug: [32m"men's-fashion"[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg'[39m,
+    createdAt: [32m'2023-04-14T22:37:45.627Z'[39m,
+    updatedAt: [32m'2023-04-14T22:37:45.627Z'[39m
+  },
+  {
+    _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+    name: [32m"Women's Fashion"[39m,
+    slug: [32m"women's-fashion"[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m,
+    createdAt: [32m'2023-04-14T22:36:58.118Z'[39m,
+    updatedAt: [32m'2023-04-14T22:36:58.118Z'[39m
+  },
+  {
+    _id: [32m'6439d41c67d9aa4ca97064d5'[39m,
+    name: [32m'SuperMarket'[39m,
+    slug: [32m'supermarket'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511452254.png'[39m,
+    createdAt: [32m'2023-04-14T22:30:52.311Z'[39m,
+    updatedAt: [32m'2023-04-14T22:30:52.311Z'[39m
+  },
+  {
+    _id: [32m'6439d40367d9aa4ca97064cc'[39m,
+    name: [32m'Baby & Toys'[39m,
+    slug: [32m'baby-and-toys'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511427130.png'[39m,
+    createdAt: [32m'2023-04-14T22:30:27.166Z'[39m,
+    updatedAt: [32m'2023-04-14T22:30:27.166Z'[39m
+  },
+  {
+    _id: [32m'6439d3e067d9aa4ca97064c3'[39m,
+    name: [32m'Home'[39m,
+    slug: [32m'home'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511392672.png'[39m,
+    createdAt: [32m'2023-04-14T22:29:52.763Z'[39m,
+    updatedAt: [32m'2023-04-14T22:29:52.763Z'[39m
+  },
+  {
+    _id: [32m'6439d3c867d9aa4ca97064ba'[39m,
+    name: [32m'Books'[39m,
+    slug: [32m'books'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511368164.png'[39m,
+    createdAt: [32m'2023-04-14T22:29:28.200Z'[39m,
+    updatedAt: [32m'2023-04-14T22:29:28.200Z'[39m
+  },
+  {
+    _id: [32m'6439d30b67d9aa4ca97064b1'[39m,
+    name: [32m'Beauty & Health'[39m,
+    slug: [32m'beauty-and-health'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511179514.png'[39m,
+    createdAt: [32m'2023-04-14T22:26:19.587Z'[39m,
+    updatedAt: [32m'2023-04-14T22:26:19.587Z'[39m
+  },
+  {
+    _id: [32m'6439d2f467d9aa4ca97064a8'[39m,
+    name: [32m'Mobiles'[39m,
+    slug: [32m'mobiles'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511156008.png'[39m,
+    createdAt: [32m'2023-04-14T22:25:56.071Z'[39m,
+    updatedAt: [32m'2023-04-14T22:25:56.071Z'[39m
+  },
+  {
+    _id: [32m'6439d2d167d9aa4ca970649f'[39m,
+    name: [32m'Electronics'[39m,
+    slug: [32m'electronics'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png'[39m,
+    createdAt: [32m'2023-04-14T22:25:21.783Z'[39m,
+    updatedAt: [32m'2023-04-14T22:25:21.783Z'[39m
+  }
+]
+Raw API data: {
+  sold: [33m23716[39m,
+  images: [
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-1.jpeg'[39m,
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-2.jpeg'[39m,
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397483-3.jpeg'[39m,
+    [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397485-4.jpeg'[39m
+  ],
+  subcategory: [
+    {
+      _id: [32m'6407f1bcb575d3b90bf95797'[39m,
+      name: [32m"Women's Clothing"[39m,
+      slug: [32m"women's-clothing"[39m,
+      category: [32m'6439d58a0049ad0b52b9003f'[39m
+    }
+  ],
+  ratingsQuantity: [33m18[39m,
+  _id: [32m'6428ebc6dc1175abc65ca0b9'[39m,
+  title: [32m'Woman Shawl'[39m,
+  slug: [32m'woman-shawl'[39m,
+  description: [32m'Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen'[39m,
+  quantity: [33m225[39m,
+  price: [33m191[39m,
+  imageCover: [32m'https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg'[39m,
+  category: {
+    _id: [32m'6439d58a0049ad0b52b9003f'[39m,
+    name: [32m"Women's Fashion"[39m,
+    slug: [32m"women's-fashion"[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg'[39m
+  },
+  brand: {
+    _id: [32m'64089bbe24b25627a253158b'[39m,
+    name: [32m'DeFacto'[39m,
+    slug: [32m'defacto'[39m,
+    image: [32m'https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png'[39m
+  },
+  ratingsAverage: [33m4.8[39m,
+  createdAt: [32m'2023-04-02T02:43:18.400Z'[39m,
+  updatedAt: [32m'2026-02-05T12:34:07.619Z'[39m,
+  id: [32m'6428ebc6dc1175abc65ca0b9'[39m
+}
+loading
+loading
+loading
+loading
+✓ Generating static pages using 23 workers (19/19) in 8.0s
+  Finalizing page optimization ...
+
+Route (app)                  Revalidate  Expire
+┌ ○ /                                1m      1y
+├ ○ /_not-found
+├ ○ /allorders
+├ ƒ /api/auth/[...nextauth]
+├ ƒ /api/Cart
+├ ƒ /api/WishList
+├ ○ /Auth/ForgetPassword
+├ ○ /Auth/Login
+├ ○ /Auth/Register
+├ ○ /Auth/ResetPassword
+├ ○ /Auth/VerifyResetCode
+├ ○ /Brands
+├ ○ /cart
+├ ○ /Categories
+├ ƒ /Categories/[id]
+├ ƒ /CheckOut/[cartId]
+├ ○ /Products                        1m      1y
+├ ƒ /Products/[id]
+├ ○ /Profile
+├ ○ /UserOrder
+└ ○ /WishList
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
