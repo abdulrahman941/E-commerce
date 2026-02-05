@@ -1,7 +1,7 @@
 import React from 'react'
-import getProducts from '../../../api/Products.api'
+import getProducts from '@/api/Products.api'
 import ProductCard from '../ProductCard/ProductCard'
-import  product  from '../../../types/product'
+import  product  from '@/types/product'
 import { log } from 'console'
 
 export default async function AllProducts() {
