@@ -2,13 +2,13 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import React from 'react'
 import Loading from '../Loading/Loading'
-import product  from '../../types/product'; // 1. تصحيح اسم النوع ليبدأ بحرف كبير
 import toast from 'react-hot-toast'
 import Link from 'next/link'
 import { DeleteWishListItem } from '@/services/cart/delete-WishList-item'
 import { addTocart } from '@/services/cart/add-prod-cart'
 import Image from 'next/image' // 2. استخدام مكون Image لتحسين الأداء
 import { wishlist } from './../../types/WishList';
+import product from '@/types/product'
 
 export default function WishList() {
     const queryClient = useQueryClient()
