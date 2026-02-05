@@ -2,11 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import {Card,CardAction,CardContent,CardDescription,CardFooter,CardHeader,CardTitle,} from "@/components/ui/card"
 import { Button } from '@/components/ui/button';
-import  Product  from '../../../types/Product';
+import  product  from '../../../types/product';
 import AddBtn from '../AddBtn/AddBtn';
 
 
-export default function ProductCard({product}:{product:Product}) {
+export default function ProductCard({product}:{product:product}) {
   return <>
       <Card>
    <Link href={`/Products/${product._id}`}>

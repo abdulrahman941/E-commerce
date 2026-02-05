@@ -14,7 +14,7 @@
 //   stock?: number;
 //   // Add more fields as needed based on the API response
 // }
-export default interface Product{
+export default interface product{
     sold?: number
     images: Array<string>
     subcategory: Array<{

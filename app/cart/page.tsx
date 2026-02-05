@@ -4,7 +4,7 @@ import { log } from 'console'
 import React from 'react'
 import Loading from '../Loading/Loading'
 import Error from '../Error/Error'
-import  Product  from '../../types/Product';
+import  Product  from '../../types/product';
 import { deleteCartItem } from '../../services/cart/delete-cart-item'
 import toast from 'react-hot-toast'
 import { updateCartItem } from '../../services/cart/update-cart'

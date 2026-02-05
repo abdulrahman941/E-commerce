@@ -1,19 +1,30 @@
 import type { NextConfig } from "next";
 
+
 const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'ecommerce.routemisr.com',
-        port: '',
-        pathname: '/**', // يسمح بجميع المسارات تحت هذا الدومين
-      },
-    ],
-  },
+  
 };
 
 export default nextConfig;
+
+
+
+
+
+// const nextConfig: NextConfig = {
+//   images: {
+//     remotePatterns: [
+//       {
+//         protocol: 'https',
+//         hostname: 'ecommerce.routemisr.com',
+//         port: '',
+//         pathname: '/**', // يسمح بجميع المسارات تحت هذا الدومين
+//       },
+//     ],
+//   },
+// };
+
+// export default nextConfig;
 
 
 

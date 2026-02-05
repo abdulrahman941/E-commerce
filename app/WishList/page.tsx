@@ -2,7 +2,7 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import React from 'react'
 import Loading from '../Loading/Loading'
-import Product  from '../../types/Product'; // 1. تصحيح اسم النوع ليبدأ بحرف كبير
+import product  from '../../types/product'; // 1. تصحيح اسم النوع ليبدأ بحرف كبير
 import toast from 'react-hot-toast'
 import Link from 'next/link'
 import { DeleteWishListItem } from '@/services/cart/delete-WishList-item'
@@ -80,7 +80,7 @@ export default function WishList() {
                                         </tr>
                                     </thead>
                                     <tbody className="divide-y divide-gray-50">
-                                        {wishlistItems.map((item: Product) => (
+                                        {wishlistItems.map((item: product) => (
                                             <tr key={item._id} className="hover:bg-gray-50/50 transition-colors group">
                                                 <td className="px-6 py-5">
                                                     <div className="flex items-center gap-4">
@@ -133,7 +133,7 @@ export default function WishList() {
 
                             {/* Mobile Cards */}
                             <div className="md:hidden divide-y divide-gray-100">
-                                {wishlistItems.map((item: Product) => (
+                                {wishlistItems.map((item: product) => (
                                     <div key={item._id} className="p-4 flex flex-col gap-4">
                                         <div className="flex gap-4">
                                             <img src={item.imageCover} className="w-24 h-24 object-cover rounded-xl shadow-sm border" alt={item.title} />
