@@ -4,7 +4,7 @@ import CategorySlider from "./_components/CategorySlider/CategorySlider";
 import AllProducts from "./_components/AllProducts/AllProducts";
 
 
-export default function Home() {
+export default function home() {
 
   return <>
   

@@ -31,16 +31,16 @@ export default function Navbar() {
     setIsOpen(!IsOpen)
    }
 const path=[
-    {href:'/', content:'Home'},
-    {href:'/Products', content:'Products'},
-    {href:'/Brands', content:'Brands'},
-    {href:'/Categories', content:'Categories'}
+    {href:'/', content:'home'},
+    {href:'/products', content:'products'},
+    {href:'/brands', content:'brands'},
+    {href:'/categories', content:'categories'}
 ]
 
 
 const authpath=[
-    {href:'/Auth/Login', content:'Login'},
-    {href:'/Auth/Register', content:'Register'}
+    {href:'/auth/login', content:'login'},
+    {href:'/auth/register', content:'register'}
     
 ]
 const {status,data:session} = useSession()
@@ -50,7 +50,7 @@ console.log(status)
 }
  function LogOut(){
   signOut({
-    callbackUrl:'/Auth/Login'
+    callbackUrl:'/auth/login'
   })
 }
   return<>

@@ -2,8 +2,8 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { log } from 'console'
 import React from 'react'
-import Loading from '../Loading/Loading'
-import Error from '../Error/Error'
+import Loading from '../loading/loading'
+import Error from '../error/error'
 import { deleteCartItem } from '../../services/cart/delete-cart-item'
 import toast from 'react-hot-toast'
 import { updateCartItem } from '../../services/cart/update-cart'
@@ -16,7 +16,7 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import product from "@/types/product"
 
-export default function Cart() {
+export default function cart() {
     const queryClient= useQueryClient()
    const{data:CartData,isLoading,isError}=useQuery<CartResponse>({
     queryKey:['get-cart'],

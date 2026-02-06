@@ -90,7 +90,7 @@ async function handleLogin(values: FormData){
   </svg>:"submit"}
         </Button>
       </div>
-            <p className='text-center'>Don't have an account yet?<Link className="text-green-400"href={'/Auth/Register'}> SignUp</Link></p>
+            <p className='text-center'>Don't have an account yet?<Link className="text-green-400"href={'/auth/register'}> SignUp</Link></p>
   
       </form>
   

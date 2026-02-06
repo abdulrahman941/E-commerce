@@ -7,7 +7,7 @@ import { failedLogin, successLogin } from './types/authInterface';
 
 export const authOptions:NextAuthOptions ={
     pages:{
-        signIn:"/Auth/Login",
+        signIn:"/auth/login",
     },
    providers:[
     Credentials({
