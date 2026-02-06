@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
-import AddBtn from '../../_components/AddBtn/AddBtn'
-import ProductImg from '../../_components/ProductImg/ProductImg'
+import AddBtn from '../../_components/addBtn/addBtn'
+import ProductImg from '../../_components/productImg/productImg'
 
 
 export default async function ProductDetails({params}: {params:{id: string}}) {

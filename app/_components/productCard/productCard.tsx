@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import {Card,CardAction,CardContent,CardDescription,CardFooter,CardHeader,CardTitle,} from "@/components/ui/card"
 import { Button } from '@/components/ui/button';
-import AddBtn from '../AddBtn/AddBtn';
 import product from '@/types/product';
+import AddBtn from '../addBtn/addBtn';
 
 
 export default function ProductCard({product}:{product:product}) {

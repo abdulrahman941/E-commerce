@@ -1,7 +1,8 @@
 import Image from "next/image";
-import HomeSlider from "./_components/HomeSlider/HomeSlider";
-import CategorySlider from "./_components/CategorySlider/CategorySlider";
-import AllProducts from "./_components/AllProducts/AllProducts";
+import HomeSlider from "./_components/homeSlider/homeSlider";
+import CategorySlider from "./_components/categorySlider/categorySlider";
+import AllProducts from "./_components/allProducts/allProducts";
+
 
 
 export default function home() {

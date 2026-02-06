@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./_components/Navbar/Navbar";
+import Navbar from "./_components/navbar/navbar";
 import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
 import { Toaster } from "react-hot-toast"
 import NextauthProvider from "./providers/nextauthProvider";
 import Providers from "./providers/react-query-provider";
-import Footer from './_components/Footer/Footer';
+import Footer from './_components/footer/footer';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -1,6 +1,6 @@
 import React from 'react'
 import getProducts from '../../api/Products.api';
-import ProductCard from '../_components/ProductCard/ProductCard';
+import ProductCard from '../_components/productCard/productCard';
 import product from '../../types/product'
 
 
