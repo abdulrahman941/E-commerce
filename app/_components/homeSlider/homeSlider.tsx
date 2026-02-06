@@ -10,31 +10,53 @@ import img5 from '../../../assets/Image E-commerce/1681511156008.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules'
+import { useState, useEffect } from 'react';
 
 export default function HomeSlider() {
-  return <>
-  <div className="container mx-auto w-[80%] flex">
-   <div className="w-3/4">
-   <Swiper spaceBetween={0} slidesPerView={1} modules={[Autoplay]} autoplay={{delay:4000}}>
-      <SwiperSlide>
-           <Image src={img1} alt="test" className="h-100 w-full object-cover" />
-      </SwiperSlide>
-       <SwiperSlide>
-           <Image src={img2} alt="test" className="h-100 w-full object-cover" />
-      </SwiperSlide>
-       <SwiperSlide>
-           <Image src={img3} alt="test" className="h-100 w-full object-cover" />
-      </SwiperSlide>
-     
-    </Swiper>
-   </div>
-   <div className="w-1/4">
-    <Image src={img4} alt="test" className="h-50 w-full object-cover" />
-    <Image src={img5} alt="test" className="h-50 w-full object-cover" />
-   </div>
-   
+     // ... داخل المكون الخاص بك
+const [isLarge, setIsLarge] = useState(false);
 
-  </div>
+useEffect(() => {
+  const checkSize = () => {
+    setIsLarge(window.innerWidth >= 1024); // 1024px هو حد الـ lg في tailwind
+  };
   
+  checkSize(); // التحقق عند أول تحميل
+  window.addEventListener('resize', checkSize);
+  return () => window.removeEventListener('resize', checkSize);
+}, []);
+  return <>
+
+ {isLarge ? (
+      /* --- كود الشاشات الكبيرة (LG) فقط --- */
+      <div className="container mx-auto w-[80%] flex">
+         <div className="lg:w-3/4">
+            <Swiper spaceBetween={0} slidesPerView={1} modules={[Autoplay]} autoplay={{delay:4000}}>
+               <SwiperSlide><Image src={img1} alt="test" className="h-100 w-full object-cover" /></SwiperSlide>
+               <SwiperSlide><Image src={img2} alt="test" className="h-100 w-full object-cover" /></SwiperSlide>
+               <SwiperSlide><Image src={img3} alt="test" className="h-100 w-full object-cover" /></SwiperSlide>
+            </Swiper>
+         </div>
+         <div className="lg:w-1/4">
+            <Image src={img4} alt="test" className="h-50 w-full object-cover" />
+            <Image src={img5} alt="test" className="h-50 w-full object-cover" />
+         </div>
+      </div>
+    ) : (
+      /* --- كود الشاشات الصغيرة (SM) فقط --- */
+      <div className="container mx-auto w-[80%] flex flex-col">
+         <div className="w-full">
+            <Swiper spaceBetween={0} slidesPerView={1} modules={[Autoplay]} autoplay={{delay:4000}}>
+               <SwiperSlide><Image src={img1} alt="test" className="h-100 w-full object-cover" /></SwiperSlide>
+               <SwiperSlide><Image src={img2} alt="test" className="h-100 w-full object-cover" /></SwiperSlide>
+               <SwiperSlide><Image src={img3} alt="test" className="h-100 w-full object-cover" /></SwiperSlide>
+            </Swiper>
+         </div>
+         <div className="w-full flex">
+            <Image src={img4} alt="test" className="h-50 w-1/2 object-cover" />
+            <Image src={img5} alt="test" className="h-50 w-1/2 object-cover" />
+         </div>
+      </div>
+    )}
   </>
 }

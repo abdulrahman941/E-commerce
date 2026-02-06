@@ -49,7 +49,7 @@ async function handleResetPassword(values: FormData){
 }
 
   return <>
-  <div className="container mx-auto my-12 w-[60%] bg-gray-100 rounded-md py-5">
+  <div className="container mx-auto my-12 sm:[35%] md:[50] lg:w-[60%] bg-gray-100 rounded-md py-5">
     <h1 className='text-green-600 text-3xl text-center'>Verify Reset Code</h1>
        <form onSubmit={form.handleSubmit( handleResetPassword)}>
       <div className="flex justify-center items-center">
