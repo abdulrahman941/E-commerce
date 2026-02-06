@@ -1,5 +1,6 @@
 import { NextAuthOptions } from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
+import { failedLogin, successLogin } from './types/authInterface';
 
 export const authOptions: NextAuthOptions = {
   pages: {
@@ -13,7 +14,6 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" }
       },
       async authorize(credentials) {
-        try {
           const response = await fetch(`${process.env.API}/auth/signin`, {
             method: "POST",
             body: JSON.stringify({
@@ -22,44 +22,34 @@ export const authOptions: NextAuthOptions = {
             }),
             headers: {
               "Content-type": "application/json",
-              "User-Agent": "Mozilla/5.0",
             },
           });
 
-          const payload = await response.json();
-
-          // تأكد أن الاستجابة ناجحة (Status 200)
-          if (response.ok && payload?.token && payload?.user) {
-            return {
-              id: payload.user._id || payload.user.email,
-              name: payload.user.name,
-              email: payload.user.email,
-              accessToken: payload.token, // غيرت الاسم لـ accessToken لتمييزه
-              userData: payload.user,     // حفظ بيانات المستخدم كاملة
-            };
-          }
-          return null;
-        } catch (error) {
-          console.error("Authorize Error:", error);
-          return null;
-        }
-      }
-    })
-  ],
-  callbacks: {
-    async jwt({ token, user }) {
-      // الـ user يكون متاحاً فقط عند تسجيل الدخول أول مرة
-      if (user) {
-        token.accessToken = user.accessToken;
-        token.userData = user.userData;
-      }
-      return token;
-    },
-    async session({ session, token }) {
-      // تمرير البيانات من الـ JWT إلى الـ Session لتظهر في المتصفح
-      session.accessToken = token.accessToken as string;
-      session.user = token.userData as any; 
-      return session;
-    }
-  }
-};
+          const payload:failedLogin|successLogin=await response.json()
+          console.log(payload);
+          if("token" in payload){
+            return{
+                id:payload.user.email,
+                user:payload.user,
+                token:payload.token 
+            }
+             } else {
+              throw new Error("Error...")
+               }
+              }   
+            })
+          ],
+          callbacks:{
+           jwt:({token,user})=>{
+           if(user){
+            token.user=user.user
+            token.token=user.token
+            }
+            return token
+             },
+             session:({session,token})=>{
+                session.user=token.user
+             return session
+             }
+          }          
+         } 
