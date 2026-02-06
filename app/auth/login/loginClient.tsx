@@ -76,7 +76,7 @@ async function handleLogin(values: FormData){
             <FieldLabel htmlFor="password">Password</FieldLabel>
             <Input {...form.register('password')} id="password" type={showPassword?"text":"password"} placeholder="enter the password"/>
             {form.formState.errors.password && <p className="text-red-500">{form.formState.errors.password.message}</p>}
-            <p className='text-sm'>Forget password?<Link className='text-green-400 pr-10' href={'/Auth/ForgetPassword'}> Reset it here</Link></p>
+            <p className='text-sm'>Forget password?<Link className='text-green-400 pr-10' href={'/auth/forgetPassword'}> Reset it here</Link></p>
           </Field>
         </FieldGroup>
       </FieldSet>
