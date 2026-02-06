@@ -12,7 +12,7 @@ export default async function middleware(req:NextRequest){
         return NextResponse.next()
     }else{
         //Login
-        const redirectUrl = new URL('/Auth/Login',process.env.NEXTAUTH_URL)
+        const redirectUrl = new URL('/auth/login',process.env.NEXTAUTH_URL)
         redirectUrl.searchParams.set('callback-url',req.nextUrl.pathname)
         return NextResponse.redirect(redirectUrl)
     }
