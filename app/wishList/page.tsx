@@ -8,7 +8,8 @@ import { DeleteWishListItem } from '@/services/cart/delete-WishList-item'
 import { addTocart } from '@/services/cart/add-prod-cart'
 import Image from 'next/image' // 2. استخدام مكون Image لتحسين الأداء
 import { wishlist } from '../../types/WishList';
-import product from '../../types/product'
+import AddBtn from './../_components/addBtn/addBtn';
+import  product  from '@/types/product';
 
 export default function WishList() {
     const queryClient = useQueryClient()
@@ -107,14 +108,7 @@ export default function WishList() {
                                                 </td>
                                                 <td className="px-6 py-5">
                                                     <div className="flex items-center justify-end gap-3">
-                                                        <button 
-                                                            onClick={() => addToCartMutation(item._id)}
-                                                            disabled={isAdding}
-                                                            className={`px-6 py-2 rounded-xl font-bold text-sm transition-all shadow-sm active:scale-95 
-                                                            ${isAdding ? 'bg-gray-300 cursor-not-allowed' : 'bg-green-500 text-white hover:bg-green-600'}`}
-                                                        >
-                                                            {isAdding ? 'Adding...' : 'Add to Cart'}
-                                                        </button>
+                                                        <AddBtn productId={item._id}/>
                                                         <button 
                                                             onClick={() => removeFromWishlist(item._id)} 
                                                             className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-all"
@@ -143,13 +137,7 @@ export default function WishList() {
                                             </div>
                                         </div>
                                         <div className="flex gap-2">
-                                            <button 
-                                                onClick={() => addToCartMutation(item._id)}
-                                                disabled={isAdding}
-                                                className={`flex-1 py-2.5 rounded-xl font-bold text-sm transition-all 
-                                                ${isAdding ? 'bg-gray-300 cursor-not-allowed' : 'bg-green-500 text-white'}`}>
-                                                {isAdding ? 'Adding...' : 'Add to Cart'}
-                                            </button>
+                                        <AddBtn productId={item._id}/>
                                             <button 
                                                 onClick={() => removeFromWishlist(item._id)} 
                                                 className="px-4 border border-red-100 text-red-500 rounded-xl active:bg-red-50"

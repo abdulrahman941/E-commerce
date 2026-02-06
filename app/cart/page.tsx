@@ -176,7 +176,7 @@ export default function cart() {
           <span className="text-green-600 font-bold">{CartData?.data.totalCartPrice} EGP</span>
         </div>
         <Button className='w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg font-bold'>
-          <Link href={`/CheckOut/${CartData?.cartId}`} className="block w-full text-center">Proceed to Checkout</Link>
+          <Link href={`/checkOut/${CartData?.cartId}`} className="block w-full text-center">Proceed to Checkout</Link>
         </Button>
       </div>
     </div>
