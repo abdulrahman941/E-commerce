@@ -1,0 +1,2 @@
+- [x] Fix error in allProducts.tsx by adding error handling for API fetch and null checks
+- [x] Test the build to ensure the error is resolved
