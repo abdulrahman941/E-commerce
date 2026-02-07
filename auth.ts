@@ -5,6 +5,7 @@ import { failedLogin, successLogin } from './types/authInterface';
 export const authOptions: NextAuthOptions = {
   pages: {
     signIn: "/auth/login",
+    error:  "/auth/login",
   },
   providers: [
     Credentials({
@@ -24,7 +25,7 @@ export const authOptions: NextAuthOptions = {
               "Content-type": "application/json",
             },
           });
-
+         
           const payload:failedLogin|successLogin=await response.json()
           console.log(payload);
           if("token" in payload){
