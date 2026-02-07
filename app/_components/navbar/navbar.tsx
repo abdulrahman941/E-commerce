@@ -12,15 +12,15 @@ export default function Navbar() {
   const{data:CartData,isLoading,isError}=useQuery({
       queryKey:['get-cart'],
       queryFn:async()=>{
-      const response=await fetch('/api/Cart')
+      const response=await fetch('/api/cart')
       const payload=await response.json()
       return payload
       }
      })
      const{data:WishListData,isLoading:isPending,isError:Error}=useQuery({
-      queryKey:['get-WishList'],
+      queryKey:['get-wishList'],
       queryFn:async()=>{
-      const response=await fetch('/api/WishList')
+      const response=await fetch('/api/wishList')
       const payload=await response.json()
       return payload
       }

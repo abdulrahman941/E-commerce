@@ -1,23 +1,26 @@
 import React from 'react'
 import ProductCard from '../_components/productCard/productCard';
 import product from '../../types/product'
-import getProducts from '@/api/Products.api';
 
+export async function getProducts(){ 
+let response =await fetch(`https://ecommerce.routemisr.com/api/v1/products`,{
+    method:'get',
+    next:{revalidate:60}
+})
 
-// interface product {
-//   _id: string;
-//   title: string;
-//   description: string;
-//   price: number;
-//   image: string;
-//   imageCover: string;
-//   ratingsAverage: number;
-//   category: {
-//     name: string;
-//   };
-//   [key: string]: unknown;
-// }
+let {data:product} = await response.json()
+console.log('Raw API data:', product[0]) // Log first product to see structure
+// Ensure id is set to _id for each product
+const productWithId = product?.map((product: any) => ({
+    ...product,
+    id: product._id
+}));
+return productWithId
+
+}
+
 export default async function Products() {
+  
         let data = await getProducts()
   
  
