@@ -24,7 +24,7 @@ export default function CheckOutForm({cartId}:{cartId:string}) {
         console.log(response)
         if(response.status=="success"){
           toast.success("order will delivered soon..")
-          window.location.href="/AllOrders"
+          window.location.href="/allorders"
         }else{
           toast.error("error")
 
