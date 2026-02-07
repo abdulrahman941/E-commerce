@@ -12,9 +12,9 @@ import { toast } from "sonner"
 import { useRouter } from 'next/navigation'
 import axios from 'axios'
 import Link from 'next/link'
-import { PayCashOrder } from '@/services/cart/Pay-Cash'
+import { PayCashOrder } from '@/services/paymentMethod/Pay-Cash'
 import { shipping } from '@/types/Cart-Response'
-import { PayOnlineOrder } from '@/services/cart/Pay-Online'
+import { PayOnlineOrder } from '@/services/paymentMethod/Pay-Online'
 import {Select,SelectContent,SelectGroup,SelectItem,SelectTrigger,SelectValue,} from "@/components/ui/select"
 import { Label } from '@/components/ui/label'
 import { schema } from '@/schema/CheckOutForm'

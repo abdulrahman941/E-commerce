@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { addTocart } from "../../../services/cart/add-prod-cart";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import toast from "react-hot-toast";
-import { AddToWishList } from "@/services/cart/add-prod-WishList";
-import { DeleteWishListItem } from "@/services/cart/delete-WishList-item";
+import { AddToWishList } from "@/services/wishlist/add-prod-WishList";
+import { DeleteWishListItem } from "@/services/wishlist/delete-WishList-item";
 import { Heart } from "lucide-react";
 
 export default function AddBtn({ productId }: { productId: string }) {

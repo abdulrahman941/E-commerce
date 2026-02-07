@@ -4,7 +4,7 @@ import React from 'react'
 import Loading from '../loading/loading'
 import toast from 'react-hot-toast'
 import Link from 'next/link'
-import { DeleteWishListItem } from '@/services/cart/delete-WishList-item'
+import { DeleteWishListItem } from '@/services/wishlist/delete-WishList-item'
 import { addTocart } from '@/services/cart/add-prod-cart'
 import Image from 'next/image' // 2. استخدام مكون Image لتحسين الأداء
 import { wishlist } from '../../types/WishList';
