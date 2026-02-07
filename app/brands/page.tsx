@@ -1,5 +1,6 @@
 import {Brand}  from '../../types/Brand'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default async function brands() {
@@ -13,8 +14,10 @@ export default async function brands() {
       <div className="flex flex-wrap">
          {allBrands.map((brand)=><div key={brand._id} className="w-full sm:w-1/2 lg:w-1/3">
       <div className="inner p-4 border rounded-md">
+           <Link href={`/brands/${brand._id}`}>
             <Image src={brand.image} alt="test" width={500} height={500}  />
             <h2 className='text-2xl text-green-600 text-center'>{brand.name}</h2>
+           </Link>
       </div>
        </div>
         )}

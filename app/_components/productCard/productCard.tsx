@@ -9,7 +9,7 @@ import AddBtn from '../addBtn/addBtn';
 export default function ProductCard({product}:{product:product}) {
   return <>
       <Card>
-   <Link href={`/Products/${product._id}`}>
+   <Link href={`/products/${product._id}`}>
         <CardHeader>
           <CardTitle>
              <img src={product.imageCover} alt="" />
