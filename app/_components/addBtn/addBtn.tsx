@@ -18,7 +18,7 @@ export default function AddBtn({ productId }: { productId: string }) {
     const { data: WishListData } = useQuery({
         queryKey: ['get-WishList'],
         queryFn: async () => {
-            const response = await fetch('/api/WishList');
+            const response = await fetch('/api/wishList');
             return await response.json();
         }
     });
@@ -41,7 +41,7 @@ export default function AddBtn({ productId }: { productId: string }) {
         mutationFn: () => isFav ? DeleteWishListItem(productId) : AddToWishList(productId),
         onSuccess: () => {
             toast.success(isFav ? "Removed from wishlist" : "Added to wishlist");
-            queryClient.invalidateQueries({ queryKey: ['get-WishList'] });
+            queryClient.invalidateQueries({ queryKey: ['get-wishList'] });
         },
         onError: () => toast.error('Something went wrong')
     });

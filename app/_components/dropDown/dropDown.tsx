@@ -16,10 +16,10 @@ export function DropdownMenuBasic({LogOut,closeComponent}:{LogOut:()=>void,close
       <DropdownMenuContent>
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            <Link onClick={closeComponent} href={'/Profile'}>Profile</Link>
+            <Link onClick={closeComponent} href={'/profile'}>Profile</Link>
             </DropdownMenuItem>
              <DropdownMenuItem>
-            <Link onClick={closeComponent} href={'/AllOrders'}>AllOrders</Link>
+            <Link onClick={closeComponent} href={'/allorders'}>AllOrders</Link>
             </DropdownMenuItem>
           <DropdownMenuItem>
             <span className="cursor-pointer" onClick={LogOut}>LogOut</span>

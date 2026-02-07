@@ -8,7 +8,7 @@ import { DeleteWishListItem } from '@/services/wishlist/delete-WishList-item'
 import { addTocart } from '@/services/cart/add-prod-cart'
 import Image from 'next/image' // 2. استخدام مكون Image لتحسين الأداء
 import { wishlist } from '../../types/WishList';
-import AddBtn from './../_components/addBtn/addBtn';
+import AddBtn from '../_components/addBtn/addBtn';
 import  product  from '@/types/product';
 
 export default function WishList() {
@@ -16,9 +16,9 @@ export default function WishList() {
 
     // جلب بيانات الويشليست
     const { data: WishListData, isLoading } = useQuery<wishlist>({
-        queryKey: ['get-WishList'],
+        queryKey: ['get-wishList'],
         queryFn: async () => {
-            const response = await fetch('/api/WishList')
+            const response = await fetch('/api/wishList')
             if (!response.ok) throw new Error('Failed to fetch wishlist')
             return await response.json()
         }
@@ -29,7 +29,7 @@ export default function WishList() {
         mutationFn: (id: string) => DeleteWishListItem(id), // 3. تمرير المعرف بشكل صحيح
         onSuccess: () => {
             toast.success('Product removed from wishlist')
-            queryClient.invalidateQueries({ queryKey: ['get-WishList'] })
+            queryClient.invalidateQueries({ queryKey: ['get-wishList'] })
         },
         onError: () => {
             toast.error('Error deleting product')
@@ -159,8 +159,8 @@ export default function WishList() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                             </svg>
                         </div>
-                        <h2 className="text-2xl font-bold text-gray-800">Your wishlist is empty</h2>
-                        <Link href="/Products" className="mt-8 bg-black text-white px-10 py-3 rounded-full font-bold hover:bg-gray-800 transition-all shadow-lg">
+                        <h2 className="text-2xl font-bold text-green-600">Your wishlist is empty</h2>
+                        <Link href="/products" className="mt-8 bg-green-600 text-black px-10 py-3 rounded-full font-bold hover:bg-green-800 transition-all shadow-lg">
                             Start Shopping
                         </Link>
                     </div>

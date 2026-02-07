@@ -16,12 +16,12 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import product from "@/types/product"
 
-export default function cart() {
+export default function Cart() {
     const queryClient= useQueryClient()
    const{data:CartData,isLoading,isError}=useQuery<CartResponse>({
     queryKey:['get-cart'],
     queryFn:async()=>{
-    const response=await fetch('/api/Cart')
+    const response=await fetch('/api/cart')
     const payload=await response.json()
     return payload
     }
