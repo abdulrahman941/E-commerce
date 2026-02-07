@@ -17,7 +17,7 @@ export default function ProductImg({images}:{images:string[]}) {
   }}
   >
   <CarouselContent>
-   {images.map((src)=>{return  <CarouselItem key={src}>
+   {images?.map((src)=>{return  <CarouselItem key={src}>
     <img src={src} alt="" />
 
     </CarouselItem>})}

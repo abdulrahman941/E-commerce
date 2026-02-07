@@ -53,7 +53,7 @@ export default function AllOrders() {
           <p className="text-gray-500 mt-2">Manage and track your recent purchases</p>
         </header>
 
-        {orders.length > 0 ? (
+        {orders?.length > 0 ? (
           <div className="space-y-6">
             {orders.map((item) => (
               <div key={item._id} className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300">

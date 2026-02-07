@@ -13,7 +13,7 @@ console.log(data)
   return <>
   <div className="container mx-auto w-[80%]">
     <div className="flex flex-wrap">
-       {data.map((category:category)=><div key={category._id}className="w-full sm:w-1/2 lg:w-1/3">
+       {data?.map((category:category)=><div key={category._id}className="w-full sm:w-1/2 lg:w-1/3">
     <div className="inner p-4 border rounded-md">
        <Link href={`/categories/${category._id}`}>
          <Image src={category.image} alt="test" width={500} height={500}  />

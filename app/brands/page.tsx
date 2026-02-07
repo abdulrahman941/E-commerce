@@ -12,7 +12,7 @@ export default async function brands() {
   return <>
   <div className="container mx-auto w-[80%] py-4">
       <div className="flex flex-wrap">
-         {allBrands.map((brand)=><div key={brand._id} className="w-full sm:w-1/2 lg:w-1/3">
+         {allBrands?.map((brand)=><div key={brand._id} className="w-full sm:w-1/2 lg:w-1/3">
       <div className="inner p-4 border rounded-md">
            <Link href={`/brands/${brand._id}`}>
             <Image src={brand.image} alt="test" width={500} height={500}  />
