@@ -16,9 +16,9 @@ export default function AddBtn({ productId }: { productId: string }) {
 
     // 1. جلب قائمة المفضلة (Query)
     const { data: WishListData } = useQuery({
-        queryKey: ['get-WishList'],
+        queryKey: ['get-Wishlist'],
         queryFn: async () => {
-            const response = await fetch('/api/wishList');
+            const response = await fetch('/api/wishlist');
             return await response.json();
         }
     });
@@ -41,7 +41,7 @@ export default function AddBtn({ productId }: { productId: string }) {
         mutationFn: () => isFav ? DeleteWishListItem(productId) : AddToWishList(productId),
         onSuccess: () => {
             toast.success(isFav ? "Removed from wishlist" : "Added to wishlist");
-            queryClient.invalidateQueries({ queryKey: ['get-wishList'] });
+            queryClient.invalidateQueries({ queryKey: ['get-wishlist'] });
         },
         onError: () => toast.error('Something went wrong')
     });
