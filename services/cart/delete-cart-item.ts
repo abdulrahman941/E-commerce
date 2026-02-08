@@ -6,7 +6,7 @@ export async function deleteCartItem(productId:string){
     if(!token){
         throw new Error ('unauthorized...')
     }
-  const response= await fetch(`${process.env.API}/cart/${productId}`,{
+  const response= await fetch(`https://ecommerce.routemisr.com/api/v1/cart/${productId}`,{
     method:'DELETE',
     headers:{
         'token':token,

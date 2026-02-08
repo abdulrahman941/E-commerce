@@ -6,7 +6,7 @@ export async function DeleteWishListItem(productId:string){
     if(!token){
         throw new Error ('unauthorized...')
     }
-  const response= await fetch(`${process.env.API}/wishlist/${productId}`,{
+  const response= await fetch(`https://ecommerce.routemisr.com/api/v1/wishlist/${productId}`,{
     method:'DELETE',
     headers:{
         'token':token,

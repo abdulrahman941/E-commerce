@@ -9,7 +9,7 @@ export async function AddToWishList(productId:string){
     if(!token){
         throw new Error ('unauthorized...')
     }
-  const response= await fetch(`${process.env.API}/wishlist`,{
+  const response= await fetch(`https://ecommerce.routemisr.com/api/v1/wishlist`,{
     cache:'no-store',
     method:'post',
     headers:{
