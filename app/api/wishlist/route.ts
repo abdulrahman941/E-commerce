@@ -6,7 +6,7 @@ export async function GET(req:NextRequest){
     if(!token){
         return NextResponse.json({error:'unauthorized',status:401})
     }
-    const res=await fetch(`${process.env.API}/wishlist`,{
+    const res=await fetch(`https://e-commerce-theta-weld-91.vercel.app/wishlist`,{
         headers:{
         token:token.token,
         'content-Type':'application/json'
