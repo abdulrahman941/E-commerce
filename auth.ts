@@ -39,6 +39,8 @@ export const authOptions: NextAuthOptions = {
               }   
             })
           ],
+          secret:
+          process.env.NEXTAUTH_SECRET,
           callbacks:{
            jwt:({token,user})=>{
            if(user){
