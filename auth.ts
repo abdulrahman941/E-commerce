@@ -4,8 +4,7 @@ import { failedLogin, successLogin } from './types/authInterface';
 
 export const authOptions: NextAuthOptions = {
   pages: {
-    signIn: "/auth/login",
-    error:  "/auth/login",
+    signIn: "/auth/login"
   },
   providers: [
     Credentials({
