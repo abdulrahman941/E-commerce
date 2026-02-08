@@ -39,7 +39,7 @@ async function handleLogin(values: FormData){
  const response = await signIn("credentials",{
     email:values.email,
     password:values.password,
-    callbackUrl:callbackUrl?? '/',
+    callbackUrl:'/',
     redirect:false
   })
      
