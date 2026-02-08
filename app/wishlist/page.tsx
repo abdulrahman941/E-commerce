@@ -7,9 +7,9 @@ import Link from 'next/link'
 import { DeleteWishListItem } from '@/services/wishlist/delete-WishList-item'
 import { addTocart } from '@/services/cart/add-prod-cart'
 import Image from 'next/image' // 2. استخدام مكون Image لتحسين الأداء
-import { wishlist } from '../../types/WishList';
 import AddBtn from '../_components/addBtn/addBtn';
 import  product  from '@/types/product';
+import { wishlist } from './../../types/wishlist';
 
 export default function WishList() {
     const queryClient = useQueryClient()

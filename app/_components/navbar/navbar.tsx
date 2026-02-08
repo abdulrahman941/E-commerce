@@ -7,7 +7,7 @@ import { useState } from 'react'
 import { DropdownMenuBasic } from '../dropDown/dropDown'
 import { useQuery } from '@tanstack/react-query'
 import { CartResponse } from '../../../types/Cart-Response'
-import {wishlist} from '../../../types/WishList'
+import {wishlist} from '../../../types/wishlist'
 export default function Navbar() {
   const{data:CartData,isLoading,isError}=useQuery({
       queryKey:['get-cart'],
