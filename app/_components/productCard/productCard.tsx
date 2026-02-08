@@ -9,24 +9,24 @@ import AddBtn from '../addBtn/addBtn';
 export default function ProductCard({product}:{product:product}) {
   return <>
       <Card>
-   <Link href={`/products/${product._id}`}>
+   <Link href={`/products/${product?._id}`}>
         <CardHeader>
           <CardTitle>
-             <img src={product.imageCover} alt="" />
+             <img src={product?.imageCover} alt="" />
           </CardTitle>
-          <CardDescription>{product.category.name}</CardDescription>
+          <CardDescription>{product?.category?.name}</CardDescription>
         </CardHeader>
         <CardContent>
-          <p className="line-clamp-1">{product.title}</p>
+          <p className="line-clamp-1">{product?.title}</p>
         </CardContent>
         <CardFooter>
           <div className="flex justify-between w-full">
-            <span>{product.price}EGP</span>
-            <span><i className="fa-solid fa-star text-yellow-500"></i>{product.ratingsAverage}</span>
+            <span>{product?.price}EGP</span>
+            <span><i className="fa-solid fa-star text-yellow-500"></i>{product?.ratingsAverage}</span>
           </div>
         </CardFooter>
          </Link>
-         <AddBtn productId={product._id}/>
+         <AddBtn productId={product?._id}/>
       </Card>
   </>
 
