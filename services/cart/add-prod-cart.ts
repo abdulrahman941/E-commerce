@@ -9,7 +9,7 @@ export async function addTocart(productId:string){
     if(!token){
         throw new Error ('unauthorized...')
     }
-  const response= await fetch(`https://ecommerce.routemisr.com/api/v1/cart`,{
+  const response= await fetch(`https://ecommerce.routemisr.com/api/v2/cart`,{
     cache:'no-store',
     method:'post',
     headers:{
@@ -17,7 +17,7 @@ export async function addTocart(productId:string){
         'Content-Type':'application/json'
     },
     body:JSON.stringify({
-        productId
+        productId:productId
     })
   })
       const payload =await response.json()

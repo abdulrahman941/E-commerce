@@ -16,7 +16,7 @@ export function DropdownMenuBasic({LogOut,closeComponent}:{LogOut:()=>void,close
       <DropdownMenuContent>
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            <Link onClick={closeComponent} href={'/profile'}>Profile</Link>
+            <Link onClick={closeComponent} href={'/profile'}>profile</Link>
             </DropdownMenuItem>
              <DropdownMenuItem>
             <Link onClick={closeComponent} href={'/allorders'}>AllOrders</Link>

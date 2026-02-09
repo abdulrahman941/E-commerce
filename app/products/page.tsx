@@ -28,7 +28,7 @@ export default async function Products() {
    <div className="container mx-auto w-[80%]">
    <div className="flex flex-wrap">
       {data?.map((product: product) => 
-      <div key={product._id} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/5">
+      <div key={product?._id} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/5">
         <div className="product p-5">
      <ProductCard product={product}/>
 
