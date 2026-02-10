@@ -16,7 +16,7 @@ export default function AddBtn({ productId }: { productId: string }) {
 
     // 1. جلب قائمة المفضلة (Query)
     const { data: WishListData } = useQuery({
-        queryKey: ['get-Wishlist'],
+        queryKey: ['get-wishlist'],
         queryFn: async () => {
             const response = await fetch('/api/wishlist');
             return await response.json();
