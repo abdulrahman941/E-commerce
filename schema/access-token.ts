@@ -5,7 +5,7 @@ export async function getAccessToken(){
     const authToken =((await cookies()).get('__Secure-next-auth.session-token')?.value)
     const token= await decode({
         token:authToken,
-        secret:process.env.NEXTAUTH_SECRET!
+        secret:"izdbM4ppU68hTKTzrC/aJRPZiBcmOio67tBEM3bN0OM="!
     })
         console.log(token)
 

@@ -9,7 +9,7 @@ export async function PayOnlineOrder(cartId:string,shippingAddress:shipping){
     if(!token){
         throw new Error ('unauthorized...')
     }
-  const response= await fetch(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=${process.env.NEXTAUTH_URL}`,{
+  const response= await fetch(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://e-commerce-theta-weld-91.vercel.app`,{
     cache:'no-store',
     method:'post',
     headers:{

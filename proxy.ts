@@ -12,7 +12,7 @@ export default async function middleware(req:NextRequest){
         return NextResponse.next()
     }else{
         //Login
-        const redirectUrl = new URL('/auth/login',process.env.NEXTAUTH_URL)
+        const redirectUrl = new URL('/auth/login',"https://e-commerce-theta-weld-91.vercel.app")
         redirectUrl.searchParams.set('callback-url',req.nextUrl.pathname)
         return NextResponse.redirect(redirectUrl)
     }
@@ -24,7 +24,7 @@ export default async function middleware(req:NextRequest){
         return NextResponse.next()
     }else{
         //Home
-        const redirectUrl = new URL('/',process.env.NEXTAUTH_URL)
+        const redirectUrl = new URL('/',"https://e-commerce-theta-weld-91.vercel.app")
         return NextResponse.redirect(redirectUrl)
     }
   }
