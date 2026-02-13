@@ -47,10 +47,12 @@ export default function DropDownReview({ reviewId }: { reviewId: string }) {
         e.preventDefault();
         if (!review.trim()) return toast.error("Please enter a review");
         if (rating < 1 || rating > 5) return toast.error("Rating must be between 1 and 5");
+        console.log(review, rating);
 
         handleUpdateMutation({
             review: review,
             rating: Number(rating)
+
         });
     };
 
@@ -78,7 +80,7 @@ export default function DropDownReview({ reviewId }: { reviewId: string }) {
             </DropdownMenu>
 
             {/* مودال التحديث باستخدام HeroUI */}
-            <Modal className="bg-white" isOpen={isOpen} onOpenChange={onOpenChange} placement="center">
+            <Modal className="bg-white rounded-md" isOpen={isOpen} onOpenChange={onOpenChange} placement="center">
                 <ModalContent>
                     {(onClose) => (
                         <>
@@ -89,14 +91,14 @@ export default function DropDownReview({ reviewId }: { reviewId: string }) {
                                         <input 
                                             value={review} 
                                             onChange={(e) => setreview(String(e.target.value))} 
-                                            className="w-full border p-2 rounded outline-none focus:border-indigo-500" 
+                                            className="w-full border p-2 rounded outline-none focus:border-green-500" 
                                             placeholder="Update your review text" 
                                             type="text" 
                                         />
                                         <input 
                                             value={rating} 
                                             onChange={(e) => setrating(Number(e.target.value))} 
-                                            className="w-full border p-2 rounded outline-none focus:border-indigo-500" 
+                                            className="w-full border p-2 rounded outline-none focus:border-green-500" 
                                             placeholder="Rating (1-5)" 
                                             type="number"
                                             min="1"
