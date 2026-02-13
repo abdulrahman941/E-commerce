@@ -6,6 +6,7 @@ import { deleteReviews } from "@/services/Reviews/deleteReviews"
 import { UpdateReviews } from "@/services/Reviews/updateReviews"
 import toast from "react-hot-toast"
 import { useState } from "react";
+import { AxiosError } from "axios";
 
 export default function DropDownReview({ reviewId }: { reviewId: string }) {
     // 1. استخدام Disclosure للتحكم في المودال
@@ -22,7 +23,7 @@ export default function DropDownReview({ reviewId }: { reviewId: string }) {
             queryClient.invalidateQueries({ queryKey: ['get-review'] });
             toast.success("The review is deleted");
         },
-        onError: (error: any) => {
+        onError: (error: AxiosError) => {
             toast.error(error.message);
         }
     });
@@ -36,7 +37,7 @@ export default function DropDownReview({ reviewId }: { reviewId: string }) {
             queryClient.invalidateQueries({ queryKey: ['get-review'] }); // تأكد من توحيد الـ Key
             onOpenChange(); // إغلاق المودال بعد النجاح
         },
-        onError: (error: any) => {
+        onError: (error: AxiosError) => {
             toast.error(error.message || 'Failed to update review');
         }
     });
