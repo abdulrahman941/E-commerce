@@ -4,6 +4,7 @@ import {Card,CardAction,CardContent,CardDescription,CardFooter,CardHeader,CardTi
 import { Button } from '@/components/ui/button';
 import product from '@/types/product';
 import AddBtn from '../addBtn/addBtn';
+import Products from '@/app/products/page';
 
 
 export default function ProductCard({product}:{product:product}) {

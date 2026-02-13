@@ -11,7 +11,7 @@ let response =await fetch(`https://ecommerce.routemisr.com/api/v1/products`,{
 let {data:product} = await response.json()
 console.log('Raw API data:', product[0]) // Log first product to see structure
 // Ensure id is set to _id for each product
-const productWithId = product?.map((product: any) => ({
+const productWithId = product?.map((product:product) => ({
     ...product,
     id: product._id
 }));
